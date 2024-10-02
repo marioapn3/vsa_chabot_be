@@ -1,0 +1,9 @@
+fastapi[standard]
+uvicorn
+numpy
+tensorflow==2.17.0
+pydantic
+scikit-learn  # untuk label_encoder
+nltk
+
+

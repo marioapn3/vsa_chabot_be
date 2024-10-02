@@ -1,0 +1,3672 @@
+{
+  "intents": [
+    {
+      "tag": "sapa",
+      "patterns": [
+        "Hai",
+        "Halo",
+        "Apa kabar",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam",
+        "Assalamualaikum",
+        "Ping",
+        "P",
+        "Lagi ngapain?",
+        "Apa kabar hari ini?",
+        "Ada yang bisa dibantu?",
+        "Apa yang sedang kamu lakukan?",
+        "Hi",
+        "Halo, ada yang bisa saya bantu?",
+        "Apakah kamu di sana?"
+      ],
+      "responses": [
+        "Halo!",
+        "Hai, ada yang bisa saya bantu?",
+        "Selamat datang, ada yang bisa kubantu?",
+        "Waalaikumsalam",
+        "Senang bertemu denganmu!",
+        "Halo, apa kabar?",
+        "Apa yang bisa kubantu hari ini?",
+        "Hai, semoga harimu menyenangkan!",
+        "Hai, aku di sini untuk membantu!"
+      ]
+    },
+    {
+      "tag": "salam kenal",
+      "patterns": [
+        "Salam kenal juga",
+        "Halo juga",
+        "Hai juga",
+        "Senang berkenalan juga",
+        "Salam kenal",
+        "Senang bertemu denganmu",
+        "Salam kenal, siapa namamu?",
+        "Kenalan yuk",
+        "Senang bertemu",
+        "Hai, salam kenal!"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa dibantu?",
+        "Hai, ada yang ingin ditanyakan?",
+        "Senang kenal kamu juga!",
+        "Salam kenal! Aku di sini untuk membantu.",
+        "Halo, senang berkenalan!",
+        "Hai, senang bisa bertemu!"
+      ]
+    },
+    {
+      "tag": "terima kasih",
+      "patterns": [
+        "Terima kasih",
+        "Thanks",
+        "Makasih",
+        "Oke, terima kasih",
+        "Thanks a lot",
+        "Makasih ya",
+        "Terima kasih banyak",
+        "Thanks banget",
+        "Terima kasih atas bantuanmu"
+      ],
+      "responses": [
+        "Sama-sama, senang bisa membantu!",
+        "Sama-sama, kalau ada yang perlu lagi, jangan sungkan ya!",
+        "Semoga harimu menyenangkan!",
+        "Sama-sama, semangat ya!",
+        "Terima kasih kembali!",
+        "Aku senang bisa membantu, jangan ragu untuk kembali!"
+      ]
+    },
+    {
+      "tag": "tanya lagi",
+      "patterns": [
+        "Mau tanya lagi",
+        "Ada pertanyaan lagi",
+        "Boleh tanya lagi?",
+        "Pengen nanya nih",
+        "Mau nanya",
+        "Aku ada pertanyaan lain",
+        "Ada yang ingin aku tanyakan",
+        "Boleh aku bertanya lagi?",
+        "Pengen nanya sesuatu"
+      ],
+      "responses": [
+        "Tentu, ada yang ingin ditanyakan?",
+        "Tanya aja, aku siap membantu!",
+        "Boleh banget, apa yang ingin kamu tanyakan?",
+        "Aku di sini untuk menjawab pertanyaanmu, silakan!",
+        "Tentu saja, silakan bertanya!",
+        "Ada yang bisa kubantu lagi?"
+      ]
+    },
+    {
+      "tag": "saran_sedih",
+      "patterns": [
+        "Aku lagi sedih nih",
+        "Sedih banget, ada saran?",
+        "Lagi down banget",
+        "Sedih terus, harus ngapain?",
+        "Kecewa dan sedih, kasih saran dong",
+        "Aku butuh nasihat karena lagi sedih",
+        "Perasaan sedih ini nggak hilang",
+        "Lagi merasa galau banget",
+        "Lagi murung terus, gimana nih?"
+      ],
+      "responses": [
+        "Coba berbicara dengan teman atau keluarga, itu bisa membantu.",
+        "Luangkan waktu untuk diri sendiri dan lakukan aktivitas yang kamu sukai.",
+        "Menulis atau berbicara tentang perasaanmu bisa membuatmu merasa lebih baik.",
+        "Kadang berbagi cerita dengan orang yang kamu percayai bisa membuat hati lebih ringan.",
+        "Beri dirimu waktu untuk merasakan perasaan itu, tapi jangan biarkan lama-lama.",
+        "Cari kegiatan positif untuk mengalihkan perhatian dari kesedihan."
+      ]
+    },
+    {
+      "tag": "saran_senang",
+      "patterns": [
+        "Aku lagi senang nih",
+        "Lagi gembira banget",
+        "Bahagia banget",
+        "Senang hari ini, ada saran?",
+        "Lagi happy banget",
+        "Aku bahagia banget hari ini, harus ngapain?",
+        "Aku merasa sangat gembira, apa yang bisa kulakukan?",
+        "Hari ini menyenangkan banget!",
+        "Seneng banget nih!"
+      ],
+      "responses": [
+        "Sebarkan kebahagiaanmu kepada orang lain!",
+        "Cobalah berbagi cerita positif atau melakukan sesuatu yang baik untuk orang lain.",
+        "Nikmati momen ini dan syukuri setiap hal kecil yang membuatmu senang.",
+        "Kebahagiaanmu bisa jadi inspirasi buat orang lain, bagikan!",
+        "Bersenang-senanglah dengan hal-hal kecil yang membuatmu tersenyum.",
+        "Lakukan sesuatu yang menyenangkan untuk diri sendiri atau orang lain!"
+      ]
+    },
+    {
+      "tag": "saran_kecewa",
+      "patterns": [
+        "Lagi kecewa banget",
+        "Kecewa sama keadaan",
+        "Kecewa berat",
+        "Lagi merasa kecewa",
+        "Ada saran buat yang kecewa?",
+        "Gimana caranya ngilangin rasa kecewa?",
+        "Aku lagi merasa sangat kecewa",
+        "Perasaan kecewa ini nggak hilang-hilang"
+      ],
+      "responses": [
+        "Coba refleksikan situasinya dan lihat sisi positifnya.",
+        "Kecewa itu wajar, coba fokus pada hal-hal yang bisa kamu kendalikan.",
+        "Cerita dengan teman atau orang yang kamu percayai bisa meringankan beban.",
+        "Ambil waktu sejenak untuk merenung, terkadang ini bisa membantu.",
+        "Kecewa itu bagian dari hidup, tapi kamu bisa belajar sesuatu dari itu.",
+        "Cari hiburan untuk sejenak mengalihkan perhatian dari kekecewaan."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Dadah",
+        "Selamat tinggal",
+        "Bye",
+        "See you",
+        "Sampai jumpa lagi",
+        "Goodbye",
+        "Aku pamit dulu",
+        "Oke, sampai nanti",
+        "Sampai jumpa"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Semoga harimu menyenangkan!",
+        "Terima kasih, sampai bertemu lagi!",
+        "Sampai ketemu lagi, semoga harimu penuh kebaikan!",
+        "Selamat tinggal, sampai jumpa di lain kesempatan!",
+        "Sampai jumpa, jangan ragu untuk kembali jika ada yang perlu!"
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "Nama kamu siapa?",
+        "Siapa namamu?",
+        "Boleh tahu namamu?",
+        "Kenalin dong siapa kamu?",
+        "Siapa nama chatbot ini?",
+        "Siapa yang berbicara denganku?",
+        "Kamu siapa?"
+      ],
+      "responses": [
+        "Namaku Bengbot, salam kenal!",
+        "Aku Bengbot, ada yang bisa kubantu?",
+        "Kenalin, aku Bengbot!",
+        "Aku Bengbot, siap membantu kamu!",
+        "Namaku Bengbot, senang berkenalan denganmu!",
+        "Aku Bengbot, chatbot yang selalu siap membantu."
+      ]
+    },
+    {
+      "tag": "udinus_info",
+      "patterns": [
+        "apa itu UDINUS?",
+        "UDINUS universitas apa?",
+        "kampus UDINUS gimana?",
+        "UDINUS di mana?",
+        "fakultas di UDINUS apa aja?",
+        "jurusan di UDINUS banyak?",
+        "kampus IT di UDINUS gimana?",
+        "Jurusan populer di UDINUS apa?",
+        "Kenapa UDINUS terkenal?",
+        "UDINUS termasuk universitas apa?"
+      ],
+      "responses": [
+        "UDINUS adalah universitas swasta di Semarang yang terkenal dengan jurusan IT-nya. Cek lebih lanjut di udinus.ac.id!",
+        "UDINUS atau Universitas Dian Nuswantoro di Semarang punya banyak jurusan menarik, terutama di bidang teknologi informasi.",
+        "Universitas Dian Nuswantoro (UDINUS) berlokasi di Semarang dan terkenal dengan jurusan IT serta DKV.",
+        "UDINUS adalah universitas yang unggul di bidang IT dan desain, banyak peluang studi menarik di sini!"
+      ]
+    },
+    {
+      "tag": "jurusan_udinus",
+      "patterns": [
+        "jurusan di UDINUS apa aja?",
+        "jurusan favorit di UDINUS?",
+        "jurusan apa yang ada di UDINUS?",
+        "jurusan IT di UDINUS bagus?",
+        "desain komunikasi visual di UDINUS gimana?",
+        "Jurusan apa yang unggulan di UDINUS?",
+        "Program studi apa saja yang ada di UDINUS?",
+        "Apa saja yang bisa dipelajari di UDINUS?"
+      ],
+      "responses": [
+        "UDINUS punya jurusan favorit seperti Teknik Informatika, DKV, Sistem Informasi, dan Manajemen. Favoritnya sih IT dan DKV!",
+        "Banyak pilihan jurusan di UDINUS, termasuk Teknologi Informasi, DKV, dan Manajemen.",
+        "Jurusan IT di UDINUS memang salah satu yang terbaik, terutama di bidang pemrograman dan keamanan siber.",
+        "Jurusan favorit di UDINUS mencakup Informatika, Desain Komunikasi Visual (DKV), dan Sistem Informasi."
+      ]
+    },
+    {
+      "tag": "biaya_kuliah",
+      "patterns": [
+        "biaya kuliah di UDINUS?",
+        "kuliah di UDINUS mahal?",
+        "berapa uang kuliah di UDINUS?",
+        "biaya SPP di UDINUS?",
+        "berapa besar biaya pendidikan di UDINUS?",
+        "biaya masuk di UDINUS bagaimana?",
+        "SPP di UDINUS mahal gak sih?",
+        "Apakah biaya kuliah di UDINUS bisa dicicil?"
+      ],
+      "responses": [
+        "Biaya kuliah di UDINUS variatif tergantung jurusan. Jangan khawatir, banyak beasiswa yang bisa dicoba.",
+        "Cek informasi biaya kuliah lengkap di website UDINUS atau langsung ke administrasi kampus.",
+        "Biaya pendidikan di UDINUS cukup terjangkau, dan tersedia beasiswa bagi yang berprestasi.",
+        "Ada beberapa program beasiswa yang bisa membantu meringankan biaya kuliah di UDINUS."
+      ]
+    },
+    {
+      "tag": "fasilitas_kampus",
+      "patterns": [
+        "fasilitas di UDINUS apa aja?",
+        "fasilitas kampus UDINUS lengkap?",
+        "ada lab di UDINUS?",
+        "perpustakaan di UDINUS gimana?",
+        "fasilitas olahraga di UDINUS ada?",
+        "Fasilitas di UDINUS seperti apa?",
+        "Apa UDINUS punya lab IT yang bagus?",
+        "Fasilitas belajar di UDINUS gimana?"
+      ],
+      "responses": [
+        "Fasilitas di UDINUS lengkap, mulai dari lab IT, studio desain, hingga perpustakaan modern. Juga ada fasilitas olahraga seperti lapangan futsal dan gym!",
+        "Kampus UDINUS punya fasilitas lengkap, mulai dari lab komputer, perpustakaan, hingga tempat olahraga.",
+        "Fasilitas di UDINUS mendukung kegiatan akademik dan non-akademik, seperti lab IT, perpustakaan, dan fasilitas olahraga.",
+        "Kamu bisa menemukan lab-lab dengan peralatan canggih, perpustakaan yang nyaman, dan tempat olahraga di UDINUS."
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "ada beasiswa di UDINUS?",
+        "cara dapetin beasiswa di UDINUS?",
+        "syarat beasiswa UDINUS?",
+        "gimana daftar beasiswa di UDINUS?",
+        "Jenis beasiswa di UDINUS apa aja?",
+        "Beasiswa apa yang tersedia di UDINUS?",
+        "Gimana cara apply beasiswa di UDINUS?"
+      ],
+      "responses": [
+        "UDINUS menyediakan banyak pilihan beasiswa, dari prestasi akademik hingga beasiswa pemerintah. Cek di bagian kemahasiswaan untuk detailnya!",
+        "Mau beasiswa? Di UDINUS banyak jenis beasiswa yang bisa kamu coba, baik akademik maupun non-akademik.",
+        "Beasiswa di UDINUS bervariasi, mulai dari beasiswa prestasi, beasiswa pemerintah, hingga beasiswa yayasan.",
+        "Untuk informasi lebih lanjut, kamu bisa langsung cek di bagian kemahasiswaan atau website UDINUS."
+      ]
+    },
+    {
+      "tag": "lokasi_udinus",
+      "patterns": [
+        "UDINUS di mana?",
+        "lokasi kampus UDINUS?",
+        "alamat UDINUS?",
+        "UDINUS Semarang di mana?",
+        "alamat lengkap UDINUS?",
+        "Lokasi UDINUS gimana?",
+        "Dimana kampus UDINUS berada?"
+      ],
+      "responses": [
+        "UDINUS berada di Semarang, tepatnya di Jalan Imam Bonjol. Dekat dengan Simpang Lima, pusat kota Semarang.",
+        "Lokasi UDINUS ada di pusat kota Semarang, Jalan Imam Bonjol, gampang diakses dari berbagai tempat.",
+        "Kampus UDINUS terletak di pusat kota Semarang, dekat dengan berbagai fasilitas umum.",
+        "UDINUS berlokasi di Semarang, sangat mudah dijangkau karena terletak di tengah kota."
+      ]
+    },
+    {
+      "tag": "curhat_kerjaan",
+      "patterns": [
+        "capek kerja",
+        "pekerjaan numpuk",
+        "stres kerjaan",
+        "bosan kerja terus",
+        "kerjaan banyak banget",
+        "kerjaan bikin pusing",
+        "Capek sama rutinitas kerja",
+        "Kerjaan terlalu banyak, gimana nih?",
+        "Stres sama pekerjaan ini",
+        "Aku nggak bisa selesaikan semua kerjaanku, saran dong"
+      ],
+      "responses": [
+        "Istirahat dulu sebentar, biar otaknya fresh lagi. Kerjaan bakal kelar kok, semangat!",
+        "Coba atur prioritas pekerjaan. Lakukan satu per satu biar nggak terlalu berat.",
+        "Kalau capek, jangan lupa istirahat. Kerja keras pasti ada hasilnya.",
+        "Penting untuk mengambil jeda sejenak saat kamu merasa terlalu lelah.",
+        "Atur waktu dan coba selesaikan satu tugas kecil dulu. Ini bisa membantu mengurangi stres.",
+        "Jangan lupa bahwa kesehatanmu lebih penting, istirahat dulu lalu lanjutkan lagi."
+      ]
+    },
+    {
+      "tag": "motivasi_belajar",
+      "patterns": [
+        "gimana semangat belajar?",
+        "motivasi belajar rendah",
+        "nggak fokus belajar",
+        "males belajar",
+        "cara biar rajin belajar",
+        "Belajar terus tapi nggak semangat",
+        "Butuh dorongan untuk belajar",
+        "Kenapa aku malas belajar?",
+        "Bagaimana cara meningkatkan konsentrasi belajar?"
+      ],
+      "responses": [
+        "Coba buat jadwal belajar yang ringan. Mulai dari yang mudah dulu biar nggak terlalu berat.",
+        "Ingat tujuanmu, itu bisa jadi motivasi untuk tetap semangat.",
+        "Belajar bareng teman bisa bikin suasana lebih seru dan semangat.",
+        "Cari metode belajar yang lebih interaktif biar nggak bosan, seperti belajar dengan video atau kuis.",
+        "Ambil waktu istirahat sebentar setelah belajar untuk menjaga fokusmu tetap tajam.",
+        "Fokus pada satu topik kecil tiap hari bisa membantu menjaga konsistensi belajarmu."
+      ]
+    },
+    {
+      "tag": "curhat_perasaan",
+      "patterns": [
+        "lagi galau",
+        "down banget",
+        "sedih terus",
+        "perasaan nggak enak",
+        "lagi hampa",
+        "galau parah",
+        "lagi ngerasa kosong",
+        "kok hidup gini-gini aja ya",
+        "perasaan lagi nggak karuan",
+        "aku ngerasa gak punya semangat hidup"
+      ],
+      "responses": [
+        "Sedih itu normal, coba deh cari hal yang bikin kamu happy, seperti ngobrol sama teman atau jalan-jalan.",
+        "Perasaan down itu sementara, kamu nggak sendirian. Cerita ke teman dekat bisa bikin lega.",
+        "Kalau lagi sedih, coba luangkan waktu buat diri sendiri dan lakukan hal yang kamu suka.",
+        "Kamu nggak sendiri, banyak orang merasa hal yang sama. Coba berbagi cerita dengan orang yang kamu percaya.",
+        "Terkadang perlu waktu untuk menemukan kembali semangat, lakukan hal-hal kecil yang bikin kamu senang."
+      ]
+    },
+    {
+      "tag": "curhat_cinta",
+      "patterns": [
+        "lagi suka sama seseorang",
+        "gimana ungkapin perasaan?",
+        "bimbang sama hubungan",
+        "pacar cuek banget",
+        "lagi ribut sama pasangan",
+        "aku suka sama dia, tapi takut bilang",
+        "hubungan ini bikin aku bingung",
+        "dia nggak perhatian lagi sama aku",
+        "berantem sama pacar terus",
+        "aku nggak tahu harus bagaimana dengan hubungan ini"
+      ],
+      "responses": [
+        "Coba komunikasiin perasaanmu secara jujur. Siapa tahu dia ngerasain hal yang sama.",
+        "Kalau pacar cuek, coba tanyakan dengan tenang, mungkin dia lagi sibuk atau ada masalah.",
+        "Hubungan kadang naik turun, yang penting komunikasi terbuka dan saling memahami.",
+        "Perasaan itu penting, sampaikan dengan jujur dan dengarkan juga perasaannya.",
+        "Berbicara terbuka bisa membantu menyelesaikan masalah dalam hubungan."
+      ]
+    },
+    {
+      "tag": "motivasi_hidup",
+      "patterns": [
+        "lagi ngerasa stuck",
+        "bingung mau ngapain dalam hidup",
+        "gimana cara punya hidup lebih baik?",
+        "nggak tahu arah hidup",
+        "hidupku berantakan",
+        "aku merasa hilang arah",
+        "apa yang harus aku lakukan dengan hidupku?",
+        "lagi bingung dengan masa depan",
+        "nggak ada semangat untuk masa depan",
+        "hidupku nggak ada tujuannya"
+      ],
+      "responses": [
+        "Kadang butuh waktu buat nemuin apa yang kamu mau. Jangan terburu-buru, nikmati prosesnya.",
+        "Hidup kadang terasa stuck, tapi coba cari hal kecil yang bisa bikin kamu happy.",
+        "Jangan bandingkan hidupmu dengan orang lain. Setiap orang punya waktunya sendiri.",
+        "Fokus pada langkah-langkah kecil yang bisa kamu kontrol, ini bisa membantumu merasa lebih baik.",
+        "Ambil waktu untuk merenung, kadang keputusan yang benar datang saat kita tenang."
+      ]
+    },
+    {
+      "tag": "curhat_teman",
+      "patterns": [
+        "temen gue toxic banget",
+        "gue berantem sama temen",
+        "temen gue ga bisa dipercaya",
+        "susah cari temen yang bener",
+        "temen gue selalu ngecewain",
+        "gimana cara ngadepin temen yang ga asik?",
+        "temen toxic, harus gimana nih?",
+        "gue nggak cocok sama temen gue",
+        "lagi berantem sama temen deket, gimana caranya baikan?",
+        "temen suka ngomongin di belakang, gimana nih?",
+        "temen deket berubah cuek, gue harus gimana?",
+        "temen gue nggak ngerti perasaan gue",
+        "gimana caranya cari temen yang lebih baik?"
+      ],
+      "responses": [
+        "Kadang kita harus jaga jarak dari orang yang bikin energi kita habis, kak. Pilih temen yang supportif aja.",
+        "Mungkin ngobrol baik-baik bisa bantu menyelesaikan masalah. Tapi kalau tetep toxic, mending jaga jarak dulu.",
+        "Punya temen yang bisa dipercaya emang susah, tapi yang penting kamu selalu jadi diri sendiri, kak!",
+        "Semua orang pasti pernah dikecewain temen, yang penting kamu tetap kuat dan fokus sama hal-hal positif.",
+        "Kalau temen toxic, jangan takut buat jaga jarak atau cari temen baru yang lebih mendukung."
+      ]
+    },
+    {
+      "tag": "demam",
+      "patterns": [
+        "gue lagi demam",
+        "demam tinggi",
+        "kenapa badan panas?",
+        "lagi demam, solusinya apa?",
+        "demam nggak turun-turun",
+        "demam, gimana cara nguranginnya?",
+        "badanku panas banget",
+        "demam ini nggak sembuh-sembuh",
+        "kenapa aku demam terus?",
+        "demam nggak turun dari semalam"
+      ],
+      "responses": [
+        "Banyakin minum air putih dan istirahat. Kalau demam nggak turun, segera periksa ke poliklinik.",
+        "Istirahat cukup, minum obat penurun panas. Kalau nggak sembuh dalam dua hari, periksa ke dokter.",
+        "Demam biasanya pertanda tubuh melawan infeksi, banyak istirahat dan minum air putih bisa membantu.",
+        "Kalau demam nggak turun dalam beberapa hari, sebaiknya segera ke dokter.",
+        "Cobalah minum paracetamol untuk menurunkan demam dan banyak istirahat."
+      ]
+    },
+    {
+      "tag": "flu",
+      "patterns": [
+        "lagi flu",
+        "hidung mampet",
+        "kena flu",
+        "flu nggak sembuh-sembuh",
+        "sakit flu, gimana nih?",
+        "flu ini nggak kunjung sembuh",
+        "hidung tersumbat terus",
+        "kenapa aku flu terus?",
+        "pilek dan flu, apa yang bisa aku lakukan?",
+        "lagi pilek parah"
+      ],
+      "responses": [
+        "Banyak istirahat, minum air hangat, dan konsumsi vitamin C. Kalau nggak sembuh dalam beberapa hari, periksa ke dokter.",
+        "Flu biasanya sembuh sendiri, tapi kalau parah banget, sebaiknya periksa ke poliklinik.",
+        "Untuk meringankan flu, minum teh hangat dan vitamin C bisa membantu.",
+        "Kalau flu nggak sembuh-sembuh, coba konsumsi obat flu dan perbanyak istirahat.",
+        "Hindari makanan dingin dan minum air hangat untuk meringankan gejala flu."
+      ]
+    },
+    {
+      "tag": "sakit_kepala",
+      "patterns": [
+        "lagi pusing",
+        "migrain",
+        "pusing parah",
+        "kepala pusing banget",
+        "sakit kepala terus",
+        "gimana cara ngurangin sakit kepala?",
+        "kepala terasa berat",
+        "kenapa kepalaku sakit banget?",
+        "lagi migrain, ada solusinya?",
+        "pusing ini nggak hilang-hilang"
+      ],
+      "responses": [
+        "Istirahat di tempat gelap dan jauhkan dari gadget. Kalau nggak sembuh, segera periksa ke poliklinik.",
+        "Minum air putih yang cukup, hindari makanan yang memicu sakit kepala. Kalau pusing nggak hilang, konsultasi ke dokter.",
+        "Cobalah untuk berbaring dan rileks di tempat yang tenang. Pusing biasanya berkurang setelah istirahat.",
+        "Kalau migrain, hindari cahaya terang dan suara keras, serta minum obat pereda nyeri.",
+        "Istirahat di ruangan gelap dan minum obat sakit kepala bisa membantu."
+      ]
+    },
+    {
+      "tag": "batuk",
+      "patterns": [
+        "batuk-batuk nih",
+        "gimana cara ngilangin batuk?",
+        "lagi batuk kering",
+        "batuk parah",
+        "obat batuk alami apa ya?",
+        "batuk terus, ada solusi?",
+        "kenapa batuk nggak sembuh-sembuh?",
+        "batuk ini ganggu banget",
+        "lagi batuk berat",
+        "batuk ini nggak sembuh-sembuh"
+      ],
+      "responses": [
+        "Minum air hangat, dan bisa juga konsumsi madu atau jahe untuk meredakan batuk, kak.",
+        "Kalau batuknya nggak sembuh dalam beberapa hari atau disertai sesak, segera periksa ke poliklinik.",
+        "Kamu bisa coba minum madu dan jahe hangat untuk meredakan batuk alami.",
+        "Kalau batuknya terus berlanjut, sebaiknya periksa ke dokter untuk pemeriksaan lebih lanjut.",
+        "Hindari makanan berminyak dan dingin, serta minum air hangat untuk meringankan batuk."
+      ]
+    },
+    {
+      "tag": "mual",
+      "patterns": [
+        "gue mual",
+        "lagi mual-mual",
+        "perut gue gak enak",
+        "mual, ada solusi?",
+        "kenapa perut gue mual ya?",
+        "gue mual banget nih",
+        "kenapa mual terus?",
+        "perut terasa mual, gimana nih?",
+        "mual ini nggak hilang-hilang",
+        "lagi mual parah, apa yang bisa dilakukan?"
+      ],
+      "responses": [
+        "Coba makan makanan ringan dulu dan hindari makanan pedas atau berlemak, kak.",
+        "Kalau mual nggak hilang dan disertai muntah, segera ke poliklinik UDINUS untuk periksa lebih lanjut.",
+        "Minum teh jahe hangat bisa membantu meredakan mual.",
+        "Kalau mual berlanjut, coba periksa ke dokter untuk mengetahui penyebabnya.",
+        "Cobalah makan makanan dalam porsi kecil, sering, dan hindari makanan berat."
+      ]
+    },
+    {
+      "tag": "luka",
+      "patterns": [
+        "gue luka nih",
+        "kena luka",
+        "luka berdarah, gimana cara ngatasin?",
+        "luka kecil tapi perih",
+        "abis jatuh, ada luka",
+        "ada luka kecil, gimana cara rawat?",
+        "tergores, apa yang bisa dilakukan?",
+        "gimana cara rawat luka biar cepat sembuh?",
+        "luka ini perih banget",
+        "ada luka kecil, tapi berdarah terus"
+      ],
+      "responses": [
+        "Cuci luka dengan air bersih dan sabun, lalu oleskan antiseptik. Jangan lupa tutup dengan perban steril.",
+        "Kalau lukanya dalam atau berdarah banyak, segera periksa ke poliklinik UDINUS biar ditangani lebih lanjut.",
+        "Bersihkan luka dengan antiseptik dan tutup dengan perban steril untuk mencegah infeksi.",
+        "Cuci luka di air mengalir, keringkan, dan oleskan salep antiseptik.",
+        "Jika luka kecil, biasanya sembuh dengan perawatan sederhana. Cuci bersih dan beri antiseptik."
+      ]
+    },
+    {
+      "tag": "kesehatan_serius",
+      "patterns": [
+        "sakit parah",
+        "kenapa badan gue sakit semua",
+        "gue sakit serius nih",
+        "gejalanya serius banget",
+        "kenapa gue lemes banget",
+        "kenapa badan gue parah banget ya",
+        "gejala ini serius banget",
+        "rasanya sakit banget, apa yang harus aku lakukan?",
+        "aku nggak bisa gerak karena sakit",
+        "sakit parah, harus gimana?"
+      ],
+      "responses": [
+        "Wah, kalau gejalanya serius seperti itu, mending langsung ke poliklinik UDINUS ya kak, biar dapat penanganan medis yang tepat.",
+        "Sebaiknya segera periksa ke dokter di poliklinik UDINUS untuk cek kondisi lebih lanjut ya.",
+        "Kalau sudah merasa parah, lebih baik segera periksa ke rumah sakit atau poliklinik.",
+        "Jangan tunggu terlalu lama kalau sakitnya parah, segera cari bantuan medis.",
+        "Kalau gejalanya terus memburuk, segera hubungi dokter atau pergi ke poliklinik."
+      ]
+    },
+    {
+      "tag": "emosi_senang",
+      "patterns": [
+        "aku lagi senang",
+        "lagi merasa senang banget",
+        "perasaan aku happy banget",
+        "seneng banget hari ini",
+        "lagi happy banget, harus ngapain?",
+        "aku bener-bener lagi bahagia",
+        "senang hari ini, apa yang bisa dilakukan?",
+        "perasaan ini bikin aku senyum terus",
+        "bahagia banget!",
+        "lagi dalam suasana hati yang baik"
+      ],
+      "responses": [
+        "Senang itu luar biasa! Nikmati momen ini dan bagikan kebahagiaanmu dengan orang lain.",
+        "Coba lakukan hal-hal yang bikin kamu tambah senang, seperti berkumpul dengan teman atau melakukan hobi favorit.",
+        "Kebahagiaan itu menular, terus sebarkan energi positifmu ke sekitarmu!",
+        "Bahagia adalah momen yang perlu dinikmati sepenuhnya. Lakukan hal-hal seru yang kamu suka!",
+        "Saat merasa bahagia, coba bagikan cerita atau kebahagiaanmu dengan orang lain."
+      ]
+    },
+    {
+      "tag": "emosi_kecewa",
+      "patterns": [
+        "aku merasa kecewa",
+        "kecewa banget sama orang",
+        "kenapa aku selalu kecewa?",
+        "lagi kecewa nih",
+        "lagi kecewa berat nih",
+        "rasanya kecewa banget sama keadaan",
+        "hidup ini penuh kekecewaan",
+        "aku kecewa sama seseorang",
+        "rasa kecewa ini nggak hilang-hilang",
+        "kecewa karena harapan nggak tercapai"
+      ],
+      "responses": [
+        "Kecewa adalah bagian dari hidup, coba fokus pada hal-hal positif dan orang-orang yang mendukungmu.",
+        "Ambil waktu untuk merenung, berbicara dengan orang terdekat bisa jadi solusi yang baik.",
+        "Kecewa itu wajar, tapi jangan biarkan rasa itu terlalu lama. Coba alihkan pikiran dengan aktivitas yang kamu suka.",
+        "Percayalah, seiring waktu perasaan kecewa itu akan hilang. Fokuslah pada hal-hal yang kamu sukai.",
+        "Saat kecewa, penting untuk mengambil jeda dan refleksi, lalu coba temukan hal-hal yang bisa membuatmu lebih baik."
+      ]
+    },
+    {
+      "tag": "emosi_murung",
+      "patterns": [
+        "aku lagi murung",
+        "lagi merasa tidak bersemangat",
+        "kenapa ya aku selalu murung?",
+        "aku nggak ada mood",
+        "murung terus nih, harus gimana?",
+        "rasanya murung banget",
+        "kok aku sedih terus ya?",
+        "aku nggak bisa menghilangkan perasaan sedih ini",
+        "murung terus tiap hari",
+        "hidup ini bikin aku murung"
+      ],
+      "responses": [
+        "Murung itu normal, coba lakukan hal yang kamu suka untuk mengangkat mood!",
+        "Jangan lupa cari teman untuk ngobrol atau berbagi cerita, kamu tidak sendirian.",
+        "Kalau murung, coba lakukan sesuatu yang menyenangkan seperti dengerin musik atau nonton film favorit.",
+        "Murung itu sementara, kak. Coba istirahat dan cari energi positif dari sekitarmu.",
+        "Coba cari aktivitas yang bisa membuatmu merasa lebih baik, seperti hobi atau jalan-jalan."
+      ]
+    },
+    {
+      "tag": "emosi_cemasan",
+      "patterns": [
+        "aku cemas",
+        "cemas banget, nggak tahu harus bagaimana",
+        "kenapa aku sering merasa cemas?",
+        "lagi ngerasa khawatir terus",
+        "kenapa aku selalu merasa cemas?",
+        "cemas tanpa alasan yang jelas",
+        "perasaan cemas ini nggak hilang-hilang",
+        "aku takut menghadapi situasi tertentu",
+        "cemas tentang masa depan",
+        "rasanya cemas setiap hari"
+      ],
+      "responses": [
+        "Cemas itu normal, ambil napas dalam-dalam dan fokus pada hal-hal yang bisa kamu kontrol.",
+        "Berbicara dengan seseorang yang kamu percayai bisa membantu mengurangi kecemasan.",
+        "Kalau lagi cemas, ambil waktu buat diri sendiri, seperti meditasi atau jalan-jalan.",
+        "Cemas itu wajar, yang penting jangan terlalu fokus pada hal yang bikin khawatir.",
+        "Luangkan waktu untuk diri sendiri dan coba latihan pernapasan untuk meredakan kecemasan."
+      ]
+    },
+    {
+      "tag": "curhat_stres",
+      "patterns": [
+        "gue lagi stres",
+        "gimana caranya hilangin stres?",
+        "kerjaan bikin stres banget",
+        "lagi stres berat nih",
+        "banyak banget yang bikin stres akhir-akhir ini",
+        "stres karena tugas numpuk",
+        "kenapa gue selalu stres?",
+        "rasanya stres terus",
+        "gimana cara ngurangin stres?",
+        "lagi pusing banyak pikiran, stres banget"
+      ],
+      "responses": [
+        "Stres itu wajar, tapi jangan lupa buat istirahat. Coba jalan-jalan atau dengerin musik buat meredakan stres.",
+        "Atur waktu dengan lebih baik, jangan terlalu banyak mikirin hal yang bikin pusing.",
+        "Istirahat sejenak bisa bantu refresh pikiran dan mengurangi stres.",
+        "Kadang stres datang dari banyaknya tanggung jawab, coba pecah tugas jadi lebih kecil.",
+        "Coba teknik relaksasi seperti meditasi atau pernapasan dalam untuk menurunkan tingkat stres."
+      ]
+    },
+    {
+      "tag": "motivasi_belajar",
+      "patterns": [
+        "gimana caranya biar semangat belajar?",
+        "lagi males belajar nih, ada tips?",
+        "motivasi belajar aku rendah banget",
+        "lagi susah fokus belajar nih",
+        "gimana cara biar lebih termotivasi belajar?",
+        "gimana caranya biar nggak malas belajar?",
+        "cara meningkatkan motivasi belajar gimana?",
+        "males banget buat belajar, apa yang harus dilakukan?",
+        "butuh semangat buat belajar",
+        "gimana cara supaya nggak gampang bosan belajar?"
+      ],
+      "responses": [
+        "Buat jadwal belajar yang ringan. Mulai dari yang mudah dulu biar nggak terlalu berat.",
+        "Ingat tujuan besar kamu, itu bisa bikin semangat belajar kembali.",
+        "Belajar sambil dengerin musik atau istirahat sebentar bisa bantu kamu lebih fokus.",
+        "Mulai dari hal kecil aja dulu, yang penting konsisten setiap hari.",
+        "Cobalah buat target belajar harian yang realistis, ini bisa membantu membangun kebiasaan."
+      ]
+    },
+    {
+      "tag": "curhat_ujian",
+      "patterns": [
+        "lagi deg-degan ujian",
+        "takut ujian, gimana ya?",
+        "ujian bikin panik banget nih",
+        "gimana cara atasi stress karena ujian?",
+        "besok ujian, tapi gue takut",
+        "ujian bikin gue stres banget",
+        "rasanya takut banget menjelang ujian",
+        "lagi panik soal ujian",
+        "ujian mendekat tapi nggak siap",
+        "takut gagal ujian, gimana caranya ngatasin?"
+      ],
+      "responses": [
+        "Ujian memang bikin tegang, tapi jangan lupa istirahat dan ambil napas dalam-dalam sebelum mulai.",
+        "Coba latihan soal dulu biar lebih tenang. Persiapan bisa bikin nervous berkurang.",
+        "Buat jadwal belajar yang teratur biar nggak terlalu stress saat ujian mendekat.",
+        "Ingat, ujian cuma bagian kecil dari perjalanan. Fokus ke persiapan dan berikan yang terbaik.",
+        "Atur waktu belajar dengan baik, berikan jeda istirahat agar tidak terlalu stres."
+      ]
+    },
+    {
+      "tag": "tips_karir",
+      "patterns": [
+        "gimana cara sukses di karir?",
+        "gimana cara biar karir lancar?",
+        "cara ngembangin karir gimana?",
+        "tips buat karir yang sukses",
+        "gimana biar karir gue berkembang?",
+        "gimana cara biar cepat sukses di dunia kerja?",
+        "gimana cara mempercepat perkembangan karir?",
+        "langkah apa yang harus diambil untuk sukses di karir?",
+        "gimana membangun karir yang solid?",
+        "cara memulai karir yang sukses gimana?"
+      ],
+      "responses": [
+        "Mulailah dari networking yang baik dan jangan takut belajar hal baru.",
+        "Ambil risiko dan belajar hal baru di luar zona nyaman, itu membantu karirmu berkembang.",
+        "Tingkatkan skill dan pengetahuan, semakin berkembang kamu, semakin besar peluang karir.",
+        "Cari mentor yang berpengalaman untuk belajar dan mempercepat perkembangan karir.",
+        "Jangan takut untuk mencoba hal baru dan terus asah kemampuan yang relevan dengan bidangmu."
+      ]
+    },
+    {
+      "tag": "tips_presentasi",
+      "patterns": [
+        "lagi takut presentasi nih",
+        "gimana biar nggak grogi pas presentasi?",
+        "gimana cara presentasi dengan baik?",
+        "grogi banget mau presentasi",
+        "takut banget presentasi di depan umum",
+        "lagi latihan presentasi tapi masih gugup",
+        "gimana caranya agar presentasi berjalan lancar?",
+        "nervous banget kalau harus presentasi",
+        "susah bicara saat presentasi",
+        "gimana supaya percaya diri saat presentasi?"
+      ],
+      "responses": [
+        "Latihan dulu di depan cermin atau teman. Semakin sering latihan, semakin percaya diri.",
+        "Fokus pada apa yang ingin disampaikan, bukan pada bagaimana orang melihatmu.",
+        "Ambil napas dalam-dalam sebelum mulai, dan bicara pelan-pelan untuk menenangkan diri.",
+        "Kalau sudah menguasai materi presentasi, rasa grogi akan hilang sendiri. Latihan adalah kunci.",
+        "Cobalah buat catatan kecil untuk membantu mengingat poin penting selama presentasi."
+      ]
+    },
+    {
+      "tag": "tips_time_management",
+      "patterns": [
+        "gimana cara kelola waktu?",
+        "lagi susah kelola waktu nih",
+        "cara time management yang efektif gimana?",
+        "gimana cara supaya waktu lebih efisien?",
+        "susah banget buat atur waktu",
+        "gimana caranya lebih produktif dengan manajemen waktu?",
+        "gimana mengatur waktu supaya semua bisa dikerjakan?",
+        "tips mengelola waktu dengan baik apa?",
+        "cara efektif menggunakan waktu gimana?",
+        "gimana cara memprioritaskan tugas dengan benar?"
+      ],
+      "responses": [
+        "Buat to-do list dan prioritaskan pekerjaan yang paling penting dulu.",
+        "Buat jadwal harian atau mingguan untuk menjaga disiplin.",
+        "Luangkan waktu istirahat di sela-sela pekerjaan agar tidak kelelahan.",
+        "Gunakan metode seperti Pomodoro, bekerja dalam blok waktu dengan istirahat singkat.",
+        "Pisahkan tugas besar menjadi bagian-bagian kecil agar lebih mudah dikelola."
+      ]
+    },
+    {
+      "tag": "curhat_keluarga",
+      "patterns": [
+        "aku lagi ada masalah sama keluarga",
+        "lagi ribut sama keluarga",
+        "gimana cara selesaikan masalah keluarga?",
+        "lagi stres karena keluarga",
+        "keluarga gue bikin gue stres",
+        "konflik terus di rumah, gimana cara ngatasinnya?",
+        "ada masalah besar di keluarga, apa yang harus dilakukan?",
+        "lagi nggak akur sama keluarga",
+        "keluarga gue nggak ngertiin gue",
+        "gimana cara memperbaiki hubungan dengan keluarga?"
+      ],
+      "responses": [
+        "Masalah keluarga sering terjadi, tetap tenang dan komunikasikan perasaanmu dengan baik.",
+        "Dengarkan sudut pandang keluarga lain, ini bisa membantu mengurangi konflik.",
+        "Butuh waktu untuk memahami perbedaan pendapat dalam keluarga, tetap sabar dan jujur.",
+        "Keluarga adalah tempat belajar tentang komunikasi, sampaikan perasaanmu dengan tenang.",
+        "Ambil jeda sejenak, lalu coba ajak keluarga berdiskusi dengan tenang."
+      ]
+    },
+    {
+      "tag": "tips_kesehatan_mental",
+      "patterns": [
+        "gimana cara menjaga kesehatan mental?",
+        "lagi merasa overwhelmed, ada tips?",
+        "cara agar mental tetap kuat gimana?",
+        "lagi stres terus, ada tips buat jaga kesehatan mental?",
+        "rasanya berat banget, gimana cara mengatasinya?",
+        "mental lagi down, gimana cara bangkit?",
+        "kenapa aku gampang stres?",
+        "gimana cara menjaga keseimbangan mental?",
+        "lagi capek mental, gimana cara istirahat yang efektif?",
+        "tips buat menjaga mental yang sehat apa?"
+      ],
+      "responses": [
+        "Tetap terhubung dengan orang yang kamu percaya dan berbagi cerita tentang perasaanmu.",
+        "Luangkan waktu untuk diri sendiri, meditasi atau hobi yang kamu sukai bisa membantu.",
+        "Mulai dari hal kecil seperti istirahat yang cukup dan makan sehat bisa menjaga kesehatan mental.",
+        "Kurangi paparan stres dan jangan ragu untuk meminta bantuan jika merasa kewalahan.",
+        "Cari cara untuk menenangkan pikiran seperti dengan meditasi, olahraga, atau jalan-jalan."
+      ]
+    },
+    {
+      "tag": "hobi",
+      "patterns": [
+        "apa hobi yang menarik buat dicoba?",
+        "lagi bosen, ada saran hobi?",
+        "hobi yang seru buat dicoba apa ya?",
+        "mau cari hobi yang bikin rileks, ada saran?",
+        "hobi yang gampang dipelajari tapi menyenangkan apa?",
+        "gimana cara nemuin hobi baru?",
+        "aku pengen punya hobi baru, ada rekomendasi?",
+        "lagi bosen banget, gimana caranya biar nggak bosan?",
+        "hobi apa yang bisa dilakukan di rumah?",
+        "ada ide hobi yang produktif?"
+      ],
+      "responses": [
+        "Coba cari hobi yang sesuai dengan minatmu, seperti memasak, berkebun, atau bermain musik.",
+        "Fotografi, melukis, atau menulis bisa sangat menyenangkan dan menenangkan.",
+        "Coba hobi rileks seperti yoga, meditasi, atau crafting untuk mengurangi stres.",
+        "Jika suka aktivitas outdoor, cobalah bersepeda, hiking, atau memancing untuk mengisi waktu.",
+        "Kamu juga bisa mencoba hobi seperti membaca buku, menulis cerita, atau membuat kerajinan tangan."
+      ]
+    },
+    {
+      "tag": "curhat_teman_baru",
+      "patterns": [
+        "gimana cara dapet teman baru?",
+        "susah banget buat berteman sama orang baru",
+        "lagi pengen cari teman baru nih",
+        "gimana biar lebih mudah dapet teman?",
+        "cara dapet teman baru gimana?",
+        "lagi susah dapet teman, ada tips?",
+        "gimana cara memperluas lingkaran pertemanan?",
+        "aku pengen lebih gampang bergaul, ada tips?",
+        "susah buat deket sama orang baru",
+        "cara biar lebih gampang dapet teman gimana?"
+      ],
+      "responses": [
+        "Ikut komunitas atau grup sesuai minat kamu, ini cara mudah bertemu orang baru.",
+        "Jangan takut memulai percakapan sederhana. Dari hal kecil bisa muncul pertemanan yang kuat.",
+        "Cobalah lebih aktif dalam kegiatan sosial atau acara kampus untuk memperluas pertemanan.",
+        "Senyum dan sikap terbuka bisa membuatmu lebih mudah didekati orang lain.",
+        "Beranikan diri untuk memulai obrolan, biasanya orang akan merespon positif."
+      ]
+    },
+    {
+      "tag": "tips_sukses_interview",
+      "patterns": [
+        "gimana cara sukses interview kerja?",
+        "lagi siap-siap interview nih, ada tips?",
+        "gimana biar interview kerja lancar?",
+        "nervous banget mau interview, ada tips?",
+        "cara biar nggak gugup saat interview kerja?",
+        "lagi panik sebelum interview, gimana cara ngatasinnya?",
+        "apa yang harus dipersiapkan untuk interview kerja?",
+        "gimana biar interview lebih sukses?",
+        "persiapan interview apa yang paling penting?",
+        "tips biar nggak gugup saat interview gimana?"
+      ],
+      "responses": [
+        "Latihan jawaban di depan cermin atau teman. Semakin sering latihan, semakin percaya diri.",
+        "Riset tentang perusahaan bisa jadi poin plus untuk menunjukkan kamu antusias.",
+        "Selalu datang tepat waktu dan tunjukkan sikap positif saat interview.",
+        "Jangan lupa siapkan pertanyaan tentang perusahaan, ini menunjukkan kamu serius.",
+        "Berpakaian rapi dan profesional, serta perhatikan sikap tubuh yang percaya diri."
+      ]
+    },
+    {
+      "tag": "tips_nulis_cv",
+      "patterns": [
+        "gimana cara bikin CV yang bagus?",
+        "lagi bikin CV, ada tips?",
+        "CV aku kayaknya kurang menarik, gimana cara perbaikinya?",
+        "mau nulis CV yang profesional, gimana caranya?",
+        "cara bikin CV yang menarik gimana?",
+        "CV apa yang bikin perusahaan tertarik?",
+        "gimana cara menulis pengalaman kerja di CV?",
+        "CV aku nggak ada isinya, gimana nulisnya?",
+        "tips bikin CV biar dilirik perusahaan?",
+        "cara menulis keterampilan di CV gimana?"
+      ],
+      "responses": [
+        "Pastikan CV-mu ringkas dan langsung ke poin penting, terutama di bagian pengalaman kerja dan keahlian.",
+        "Gunakan format yang rapi dan mudah dibaca. Hindari warna atau font yang sulit dibaca.",
+        "Sertakan pencapaian konkret yang menunjukkan kemampuanmu, seperti angka atau hasil yang terukur.",
+        "Tuliskan keterampilan yang relevan dengan pekerjaan yang kamu lamar untuk menambah nilai.",
+        "Jangan lupa mencantumkan informasi kontak yang mudah dihubungi serta perbarui setiap kali ada pengalaman baru."
+      ]
+    },
+    {
+      "tag": "tips_organisasi",
+      "patterns": [
+        "gimana cara aktif di organisasi?",
+        "cara supaya bisa aktif berorganisasi gimana?",
+        "pengen aktif di organisasi kampus, ada tips?",
+        "lagi bingung cara mulai aktif di organisasi",
+        "gimana caranya biar lebih aktif di organisasi?",
+        "cara dapet posisi di organisasi gimana?",
+        "tips buat berperan aktif di organisasi?",
+        "susah banget buat aktif di organisasi, ada saran?",
+        "gimana caranya biar dikenal di organisasi?",
+        "pengen ikut organisasi, tapi bingung gimana mulainya"
+      ],
+      "responses": [
+        "Mulai dengan ikut kegiatan kecil organisasi untuk memahami cara kerjanya.",
+        "Jadilah proaktif dan siap membantu, ini membuatmu cepat dikenal dan dipercaya.",
+        "Manajemen waktu antara kuliah dan organisasi adalah kunci untuk tetap aktif.",
+        "Jangan ragu untuk mengajukan diri jadi pengurus atau bagian dari kepanitiaan.",
+        "Cobalah ikut rapat atau diskusi organisasi secara aktif, dan berikan ide-ide segar."
+      ]
+    },
+    {
+      "tag": "tips_kuliah_online",
+      "patterns": [
+        "gimana cara biar kuliah online lancar?",
+        "lagi susah fokus kuliah online, ada tips?",
+        "cara tetap semangat saat kuliah online gimana?",
+        "gimana biar lebih produktif saat kuliah online?",
+        "cara efektif belajar selama kuliah online gimana?",
+        "aku nggak bisa fokus saat kuliah online, gimana caranya?",
+        "kuliah online bikin malas, ada tips?",
+        "gimana supaya nggak bosan kuliah online?",
+        "kuliah online banyak gangguan, ada tips?",
+        "cara biar produktif selama kuliah online gimana?"
+      ],
+      "responses": [
+        "Buat jadwal harian yang jelas dan pastikan kamu istirahat cukup agar tetap fokus saat kuliah online.",
+        "Siapkan area belajar yang nyaman dan pastikan koneksi internet stabil.",
+        "Agar lebih produktif, catat materi dan aktif bertanya selama perkuliahan.",
+        "Luangkan waktu istirahat untuk menghindari kelelahan dan meningkatkan konsentrasi.",
+        "Buat target harian atau mingguan selama kuliah online untuk menjaga motivasi."
+      ]
+    },
+    {
+      "tag": "tips_travel",
+      "patterns": [
+        "gimana tips biar travel lebih hemat?",
+        "lagi mau liburan, ada tips travel hemat?",
+        "gimana cara travel hemat tapi seru?",
+        "lagi mau traveling, ada tips?",
+        "tips biar liburan murah gimana?",
+        "gimana supaya traveling lebih menyenangkan?",
+        "lagi bingung persiapan liburan, ada saran?",
+        "mau traveling, apa yang harus dipersiapkan?",
+        "tips traveling supaya nggak boros gimana?",
+        "gimana cara liburan tanpa banyak biaya?"
+      ],
+      "responses": [
+        "Cari tiket pesawat atau akomodasi dari jauh-jauh hari untuk dapat harga yang lebih murah.",
+        "Gunakan transportasi umum saat traveling untuk menghemat biaya dan merasakan pengalaman lokal.",
+        "Jangan bawa terlalu banyak barang, cukup bawa yang penting biar perjalanan lebih nyaman.",
+        "Pastikan riset destinasi tujuan, dari makanan sampai budaya lokal, agar lebih siap.",
+        "Gunakan aplikasi untuk mencari diskon hotel atau tiket tempat wisata."
+      ]
+    },
+    {
+      "tag": "tips_meditasi",
+      "patterns": [
+        "gimana cara meditasi yang baik?",
+        "lagi pengen mulai meditasi, ada tips?",
+        "cara meditasi biar lebih fokus gimana?",
+        "pengen coba meditasi, gimana caranya?",
+        "gimana supaya meditasi lebih tenang?",
+        "lagi belajar meditasi, ada saran?",
+        "cara meditasi yang mudah buat pemula gimana?",
+        "tips meditasi yang efektif gimana?",
+        "gimana caranya supaya bisa meditasi lebih lama?",
+        "meditasi gampang bikin aku bosan, gimana caranya supaya nggak?"
+      ],
+      "responses": [
+        "Mulai dengan meditasi singkat 5-10 menit. Duduk tenang, atur napas, dan fokus pada napas masuk dan keluar.",
+        "Pastikan tempat meditasi kamu nyaman dan tenang, jauh dari gangguan.",
+        "Jika susah fokus, coba meditasi sambil mendengarkan musik tenang atau suara alam.",
+        "Meditasi adalah proses, lakukan secara rutin dan nikmati prosesnya.",
+        "Cobalah untuk mulai dengan latihan pernapasan sederhana sebelum masuk ke meditasi penuh."
+      ]
+    },
+    {
+      "tag": "tips_wirausaha",
+      "patterns": [
+        "gimana cara mulai usaha?",
+        "lagi pengen mulai bisnis, ada tips?",
+        "cara memulai usaha dari nol gimana?",
+        "tips wirausaha buat pemula",
+        "cara memulai bisnis kecil-kecilan gimana?",
+        "gimana biar bisnis bisa berkembang?",
+        "lagi mau mulai wirausaha, ada tips?",
+        "gimana supaya usaha cepat berkembang?",
+        "cara membangun bisnis dari nol gimana?",
+        "langkah-langkah memulai bisnis gimana?"
+      ],
+      "responses": [
+        "Mulai dengan riset pasar untuk memastikan produk atau jasa yang sesuai dengan kebutuhan.",
+        "Mulai dari skala kecil dulu, lalu kembangkan seiring waktu.",
+        "Gunakan media sosial untuk mempromosikan usaha dengan biaya rendah dan efektif.",
+        "Jangan takut gagal, belajar dari setiap kesalahan bisa memperkuat usahamu.",
+        "Cobalah untuk fokus pada produk atau layanan yang unik dan berbeda dari kompetitor."
+      ]
+    },
+    {
+      "tag": "fungsi_bot",
+      "patterns": [
+        "Apa fungsi kamu?",
+        "Kamu bisa ngapain?",
+        "Apa kegunaanmu?",
+        "Kamu bisa bantu apa?",
+        "Fungsi kamu apa?",
+        "Apa saja yang bisa kamu lakukan?",
+        "Untuk apa kamu ada?",
+        "Apa yang bisa kamu bantu?",
+        "Apa kegunaanmu bagi saya?"
+      ],
+      "responses": [
+        "Aku berguna untuk membantu Anda dengan berbagai informasi, memberikan saran, dan menjadi virtual asisten yang siap membantu!",
+        "Aku di sini untuk membantu memberikan jawaban atas pertanyaanmu, memberikan rekomendasi, atau bahkan membantu curhat.",
+        "Sebagai virtual asisten, aku bisa memberikan informasi, tips, saran, atau sekedar menjadi teman ngobrol.",
+        "Aku bisa membantu menjawab pertanyaan, memberikan saran, dan memberikan informasi yang mungkin kamu butuhkan."
+      ]
+    },
+    {
+      "tag": "curhat",
+      "patterns": [
+        "Aku mau cerita dong",
+        "Aku mau curhat",
+        "Mau cerita nih",
+        "Aku mau cerita sesuatu",
+        "Boleh curhat nggak?",
+        "Aku pengen cerita",
+        "Curhat dong",
+        "Mau cerita nih, boleh?",
+        "Boleh curhat?",
+        "Aku butuh teman cerita nih"
+      ],
+      "responses": [
+        "Boleh, aku siap mendengarkan!",
+        "Tentu saja, silakan cerita apa yang ingin kamu sampaikan.",
+        "Aku di sini untuk mendengarkan, cerita aja.",
+        "Tentu, aku siap menjadi teman curhatmu.",
+        "Boleh banget, ceritakan apa yang ingin kamu sampaikan.",
+        "Silakan cerita, aku siap mendengarkan."
+      ]
+    },
+    {
+      "tag": "makanan_pagi_semarang",
+      "patterns": [
+        "Makanan enak di pagi hari di Semarang?",
+        "Rekomendasi sarapan di sekitar UDINUS?",
+        "Makanan apa yang cocok buat sarapan di Semarang?",
+        "Sarapan yang enak di dekat UDINUS?",
+        "Makanan pagi di Semarang yang enak apa?",
+        "Rekomendasi sarapan di Semarang?",
+        "Mau cari sarapan enak di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Untuk sarapan, kamu bisa coba Kupat Tahu Gempol, Bubur Ayam Pak Brewok, atau Lontong Cap Gomeh di sekitar UDINUS!",
+        "Di pagi hari, bubur ayam atau pecel Bu Sumo di dekat UDINUS bisa jadi pilihan yang enak.",
+        "Coba sarapan Soto Bangkong atau Nasi Kuning Ny. Tam ini enak untuk pagi hari di Semarang.",
+        "Sarapan lezat? Coba Gudeg Mbak Tum atau Bubur Ayam Simpang Lima."
+      ]
+    },
+    {
+      "tag": "makanan_siang_semarang",
+      "patterns": [
+        "Makanan enak di siang hari di Semarang?",
+        "Rekomendasi makan siang di sekitar UDINUS?",
+        "Makanan apa yang cocok buat makan siang di Semarang?",
+        "Tempat makan siang enak di dekat UDINUS?",
+        "Makan siang di Semarang yang enak apa?",
+        "Mau cari makan siang di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Untuk makan siang, kamu bisa coba Tahu Gimbal, Soto Bangkong, atau Nasi Goreng Babat Mberok di dekat UDINUS!",
+        "Cobalah makan siang di Warung Makan Semawis, mereka punya variasi makanan yang enak!",
+        "Kalau siang-siang, cobain Sate Ayam Pak Kempleng atau Bakso Sapi Pak Gendut, cocok buat makan siang.",
+        "Untuk makan siang yang lebih ringan, coba Nasi Pecel Mbok Sador atau Ayam Penyet di Simpang Lima."
+      ]
+    },
+    {
+      "tag": "makanan_sore_semarang",
+      "patterns": [
+        "Makanan enak di sore hari di Semarang?",
+        "Rekomendasi makan sore di sekitar UDINUS?",
+        "Makanan apa yang cocok buat makan sore di Semarang?",
+        "Tempat makan sore enak di dekat UDINUS?",
+        "Makan sore di Semarang yang enak apa?",
+        "Mau cari makan sore di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Untuk sore hari, coba Pisang Plenet atau Lumpia Semarang di dekat UDINUS, pas buat ngemil sore.",
+        "Di sore hari, kamu bisa coba Roti Bakar di angkringan sekitar kampus atau Wedang Ronde untuk hangat-hangat.",
+        "Coba Jajanan pasar seperti Tahu Petis atau Kue Leker di area Simpang Lima, enak buat ngemil sore.",
+        "Sore-sore cocok makan Pempek Ny. Kamto atau Sosis Bakar di sekitaran Jalan Pemuda."
+      ]
+    },
+    {
+      "tag": "minuman_pagi_semarang",
+      "patterns": [
+        "Minuman enak di pagi hari di Semarang?",
+        "Rekomendasi minuman pagi di sekitar UDINUS?",
+        "Minuman apa yang cocok buat pagi hari di Semarang?",
+        "Minuman pagi yang segar di dekat UDINUS?",
+        "Minuman enak buat pagi hari di Semarang?",
+        "Mau cari minuman pagi yang segar di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Pagi hari cocoknya minum Kopi di Legend Coffee atau Teh Hangat di Warung Makan Semawis.",
+        "Untuk pagi hari, cobalah Jus Alpukat atau Wedang Jahe di sekitar UDINUS, segar banget!",
+        "Kopi Tubruk atau Es Jeruk di pagi hari bisa jadi pilihan yang enak di Simpang Lima.",
+        "Kalau pagi hari, minum Wedang Uwuh atau Teh Manis hangat cocok banget buat mulai hari."
+      ]
+    },
+    {
+      "tag": "minuman_siang_semarang",
+      "patterns": [
+        "Minuman enak di siang hari di Semarang?",
+        "Rekomendasi minuman siang di sekitar UDINUS?",
+        "Minuman apa yang cocok buat siang hari di Semarang?",
+        "Minuman siang yang segar di dekat UDINUS?",
+        "Minuman enak buat siang hari di Semarang?",
+        "Mau cari minuman siang yang segar di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Siang hari cocok minum Es Dawet di Simpang Lima atau Es Campur Pak No, segar banget!",
+        "Untuk siang hari, Es Kelapa Muda atau Es Teh Poci di dekat UDINUS bisa jadi pilihan yang menyegarkan.",
+        "Siang-siang enak minum Es Cincau atau Es Degan di sekitaran Jalan Pemuda.",
+        "Kalau siang hari, coba Es Teler atau Jus Mangga di Warung Makan Semawis."
+      ]
+    },
+    {
+      "tag": "minuman_sore_semarang",
+      "patterns": [
+        "Minuman enak di sore hari di Semarang?",
+        "Rekomendasi minuman sore di sekitar UDINUS?",
+        "Minuman apa yang cocok buat sore hari di Semarang?",
+        "Minuman sore yang segar di dekat UDINUS?",
+        "Minuman enak buat sore hari di Semarang?",
+        "Mau cari minuman sore yang segar di sekitar UDINUS, ada saran?"
+      ],
+      "responses": [
+        "Sore hari cocok minum Wedang Ronde atau Es Teh Manis di angkringan dekat UDINUS.",
+        "Untuk sore hari, cobalah Teh Tarik atau Kopi Susu di area Simpang Lima.",
+        "Minuman seperti Wedang Jahe atau Teh Poci hangat cocok untuk sore hari di sekitar kampus.",
+        "Kalau sore hari, coba Es Susu Murni atau Jus Sirsak di Jalan Pemuda, segar banget!"
+      ]
+    },
+    {
+      "tag": "menanyakan_kabar",
+      "patterns": [
+        "Apa kabar?",
+        "Gimana kabarnya?",
+        "Kabar gimana?",
+        "Sehat kan?",
+        "Baik-baik aja?"
+      ],
+      "responses": [
+        "Terima kasih telah bertanya, saya dalam kondisi baik. Bagaimana dengan Anda?",
+        "Saya baik, semoga Anda juga dalam keadaan baik.",
+        "Terima kasih, saya dalam kondisi baik. Semoga Anda juga begitu."
+      ]
+    },
+    {
+      "tag": "menanyakan_bantuan",
+      "patterns": [
+        "Bisa bantuin nggak?",
+        "Minta tolong dong",
+        "Bisa bantu nggak?",
+        "Minta bantuan nih",
+        "Boleh minta tolong?"
+      ],
+      "responses": [
+        "Tentu saja, saya dengan senang hati akan membantu. Apa yang bisa saya bantu?",
+        "Dengan senang hati, bagaimana saya bisa membantu Anda?",
+        "Tentu, silakan beri tahu apa yang bisa saya bantu."
+      ]
+    },
+    {
+      "tag": "menanyakan_waktu",
+      "patterns": [
+        "Sekarang jam berapa?",
+        "Jam berapa nih?",
+        "Bisa kasih tahu waktunya?",
+        "Berapa jam sekarang?",
+        "Waktunya berapa?"
+      ],
+      "responses": [
+        "Saat ini jam [insert time]. Ada hal lain yang bisa saya bantu?",
+        "Waktunya sekarang adalah [insert time]. Semoga informasi ini membantu Anda.",
+        "Sekarang pukul [insert time]."
+      ]
+    },
+    {
+      "tag": "minta_maaf",
+      "patterns": [
+        "Maaf ya",
+        "Maaf banget",
+        "Sorry ya",
+        "Maaf kalau ganggu",
+        "Sorry, nggak sengaja"
+      ],
+      "responses": [
+        "Tidak masalah, tidak ada yang perlu dimaafkan.",
+        "Mohon jangan khawatir, saya mengerti dan tidak ada masalah.",
+        "Tidak perlu khawatir, semuanya baik-baik saja."
+      ]
+    },
+    {
+      "tag": "menanyakan_lokasi",
+      "patterns": [
+        "Dimana ini?",
+        "Lokasinya dimana?",
+        "Tempatnya di mana?",
+        "Lokasi di mana ya?",
+        "Bisa kasih tahu lokasi?"
+      ],
+      "responses": [
+        "Silakan beri tahu lokasi yang ingin Anda ketahui, dan saya akan membantu mencari informasinya.",
+        "Saya dapat membantu Anda menemukan lokasi yang dimaksud, mohon berikan detail lebih lanjut.",
+        "Tolong beri tahu saya lokasi spesifik yang Anda maksud agar saya bisa memberikan informasi yang tepat."
+      ]
+    },
+    {
+      "tag": "menawarkan_bantuan",
+      "patterns": [
+        "Butuh bantuan nggak?",
+        "Ada yang bisa dibantu?",
+        "Perlu bantuan?",
+        "Bisa bantu nggak?",
+        "Bantuin nggak?"
+      ],
+      "responses": [
+        "Apakah Anda memerlukan bantuan lebih lanjut? Saya siap membantu.",
+        "Jika ada yang bisa saya bantu, jangan ragu untuk memberi tahu.",
+        "Saya di sini untuk membantu, apakah ada yang bisa saya bantu lebih lanjut?"
+      ]
+    },
+    {
+      "tag": "menanyakan_keadaan",
+      "patterns": [
+        "Kamu lagi apa?",
+        "Sedang ngapain?",
+        "Lagi sibuk nggak?",
+        "Kamu lagi sibuk?",
+        "Sekarang lagi apa?"
+      ],
+      "responses": [
+        "Saat ini saya siap untuk membantu Anda. Apa yang bisa saya lakukan untuk Anda?",
+        "Tidak ada yang mendesak saat ini. Bagaimana saya bisa membantu Anda?",
+        "Saya tersedia untuk membantu Anda. Apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat",
+      "patterns": [
+        "Selamat ya",
+        "Congrats!",
+        "Selamat ya atas pencapaiannya",
+        "Senang mendengarnya",
+        "Congrats ya!"
+      ],
+      "responses": [
+        "Terima kasih atas ucapan selamatnya. Semoga sukses juga menyertai Anda.",
+        "Terima kasih banyak. Saya berharap Anda juga mendapatkan hal-hal baik ke depannya.",
+        "Saya sangat menghargai ucapan Anda, terima kasih."
+      ]
+    },
+    {
+      "tag": "mengungkapkan_kekecewaan",
+      "patterns": [
+        "Kecewa banget",
+        "Bete nih",
+        "Kesel banget",
+        "Nggak suka",
+        "Kecewa deh"
+      ],
+      "responses": [
+        "Saya mengerti perasaan Anda, semoga keadaan segera membaik.",
+        "Saya turut prihatin dengan apa yang terjadi. Jika Anda butuh bantuan, saya siap membantu.",
+        "Perasaan kecewa adalah hal yang wajar. Semoga Anda bisa melalui ini dengan baik."
+      ]
+    },
+    {
+      "tag": "menyampaikan_semangat",
+      "patterns": [
+        "Semangat ya",
+        "Good luck!",
+        "Jangan menyerah",
+        "Kamu pasti bisa",
+        "Semangat terus ya!"
+      ],
+      "responses": [
+        "Terima kasih atas dorongan semangatnya, saya menghargai itu.",
+        "Ucapan semangat Anda sangat berarti. Terima kasih!",
+        "Terima kasih banyak, semangat itu penting dan saya sangat menghargainya."
+      ]
+    },
+    {
+      "tag": "menanyakan_harga",
+      "patterns": [
+        "Harganya berapa?",
+        "Berapa harga barang ini?",
+        "Ini berapa ya?",
+        "Bisa kasih tahu harganya?",
+        "Harganya berapa sekarang?"
+      ],
+      "responses": [
+        "Harga barang tersebut adalah [insert price]. Ada yang ingin Anda tanyakan lebih lanjut?",
+        "Barang ini dihargai [insert price]. Semoga informasi ini membantu.",
+        "Harganya saat ini adalah [insert price]."
+      ]
+    },
+    {
+      "tag": "menanyakan_cuaca",
+      "patterns": [
+        "Cuaca hari ini gimana?",
+        "Hujan nggak ya?",
+        "Hari ini panas nggak?",
+        "Gimana cuacanya?",
+        "Prediksi cuaca apa?"
+      ],
+      "responses": [
+        "Cuaca saat ini adalah [insert weather]. Apakah Anda membutuhkan informasi tambahan?",
+        "Hari ini diperkirakan [insert weather], semoga informasi ini bermanfaat.",
+        "Saat ini cuaca adalah [insert weather]."
+      ]
+    },
+    {
+      "tag": "membuat_janji",
+      "patterns": [
+        "Bisa ketemu kapan?",
+        "Janjian kapan?",
+        "Kapan bisa janjian?",
+        "Mau ketemuan kapan?",
+        "Ketemu dimana?"
+      ],
+      "responses": [
+        "Saya bisa menyesuaikan dengan jadwal Anda. Kapan waktu yang tepat bagi Anda?",
+        "Silakan beri tahu waktu dan tempat yang Anda inginkan, saya akan mengaturnya.",
+        "Mari kita tentukan waktu dan tempat yang sesuai. Saya fleksibel."
+      ]
+    },
+    {
+      "tag": "membatalkan_janji",
+      "patterns": [
+        "Maaf, nggak bisa datang",
+        "Batal ya",
+        "Nggak bisa hadir",
+        "Maaf, nggak bisa ikut",
+        "Batalin aja ya"
+      ],
+      "responses": [
+        "Tidak masalah, kita bisa menjadwalkan ulang di lain waktu.",
+        "Terima kasih atas informasinya. Semoga lain kali kita bisa bertemu.",
+        "Tidak apa-apa, jika Anda ingin menjadwalkan ulang, saya siap mengatur."
+      ]
+    },
+    {
+      "tag": "mengucapkan_perpisahan",
+      "patterns": [
+        "Dadah",
+        "Sampai jumpa",
+        "Bye!",
+        "Selamat tinggal",
+        "See you!"
+      ],
+      "responses": [
+        "Sampai jumpa lagi. Semoga hari Anda menyenangkan.",
+        "Terima kasih, sampai kita bertemu kembali.",
+        "Selamat tinggal, semoga Anda selalu dalam keadaan baik."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_tidur",
+      "patterns": [
+        "Selamat tidur",
+        "Good night",
+        "Tidur yang nyenyak ya",
+        "Mimpi indah",
+        "Good night ya"
+      ],
+      "responses": [
+        "Selamat malam, semoga Anda beristirahat dengan baik.",
+        "Selamat malam, semoga Anda mendapatkan mimpi indah.",
+        "Tidur yang nyenyak dan semoga Anda bangun dalam keadaan segar."
+      ]
+    },
+    {
+      "tag": "menyampaikan_doanya",
+      "patterns": [
+        "Semoga sukses ya",
+        "Semoga berhasil",
+        "Doain sukses ya",
+        "Semoga lancar semuanya",
+        "Semoga berkah"
+      ],
+      "responses": [
+        "Terima kasih atas doanya. Semoga kesuksesan juga menyertai Anda.",
+        "Saya sangat menghargai doa dan harapan Anda, semoga yang terbaik untuk kita semua.",
+        "Terima kasih, doa Anda sangat berarti."
+      ]
+    },
+    {
+      "tag": "menanyakan_perjalanan",
+      "patterns": [
+        "Perjalanan gimana?",
+        "Udah sampai belum?",
+        "Lancar nggak perjalanannya?",
+        "Macet nggak tadi?",
+        "Sampai jam berapa?"
+      ],
+      "responses": [
+        "Perjalanan berjalan dengan baik, terima kasih telah bertanya.",
+        "Saya sudah sampai dengan selamat, perjalanan lancar.",
+        "Perjalanan cukup lancar, semoga perjalanan Anda juga berjalan baik."
+      ]
+    },
+    {
+      "tag": "menawarkan_saran",
+      "patterns": [
+        "Perlu saran nggak?",
+        "Boleh kasih saran?",
+        "Mau minta saran?",
+        "Ada yang bisa saya bantu dengan saran?",
+        "Butuh saran nggak?"
+      ],
+      "responses": [
+        "Jika Anda membutuhkan saran, saya siap membantu memberikan pandangan terbaik.",
+        "Dengan senang hati, saya bisa memberikan saran sesuai kebutuhan Anda.",
+        "Saya akan dengan senang hati memberikan saran jika Anda membutuhkannya."
+      ]
+    },
+    {
+      "tag": "meminta_penjelasan",
+      "patterns": [
+        "Bisa jelasin?",
+        "Kasih penjelasan dong",
+        "Bisa tolong jelaskan?",
+        "Penjelasannya gimana?",
+        "Gimana sih ini?"
+      ],
+      "responses": [
+        "Tentu, saya akan dengan senang hati menjelaskan lebih lanjut. Silakan beri tahu bagian mana yang perlu diperjelas.",
+        "Izinkan saya menjelaskan dengan lebih detail. Mohon tunggu sebentar.",
+        "Penjelasannya adalah sebagai berikut: [insert explanation]."
+      ]
+    },
+    {
+      "tag": "mengucapkan_terima_kasih_lagi",
+      "patterns": [
+        "Thanks banget ya",
+        "Makasih banyak",
+        "Terima kasih sekali lagi",
+        "Bener-bener makasih ya",
+        "Thanks banget"
+      ],
+      "responses": [
+        "Sama-sama, dengan senang hati saya membantu Anda.",
+        "Terima kasih kembali, saya senang bisa membantu.",
+        "Dengan senang hati, jika ada yang lain yang bisa saya bantu, silakan menghubungi saya."
+      ]
+    },
+    {
+      "tag": "meminta_rekomendasi",
+      "patterns": [
+        "Ada rekomendasi nggak?",
+        "Bisa kasih rekomendasi?",
+        "Ada saran rekomendasi?",
+        "Kasih tahu dong rekomendasinya",
+        "Butuh rekomendasi nih"
+      ],
+      "responses": [
+        "Tentu saja, saya akan memberikan rekomendasi yang sesuai dengan kebutuhan Anda.",
+        "Saya akan senang memberikan beberapa rekomendasi yang bisa Anda pertimbangkan.",
+        "Berikut adalah beberapa rekomendasi yang mungkin berguna bagi Anda."
+      ]
+    },
+    {
+      "tag": "mengucapkan_maaf_lainnya",
+      "patterns": [
+        "Sorry ya",
+        "Maaf ya",
+        "Sorry banget",
+        "Nggak sengaja nih",
+        "Maaf kalau ganggu"
+      ],
+      "responses": [
+        "Tidak perlu khawatir, semuanya baik-baik saja.",
+        "Tidak masalah, saya mengerti.",
+        "Tidak ada yang perlu dimaafkan, saya mengerti."
+      ]
+    },
+    {
+      "tag": "menanyakan_kesibukan",
+      "patterns": [
+        "Lagi sibuk nggak?",
+        "Sibuk nggak sekarang?",
+        "Ada waktu sebentar?",
+        "Lagi ngapain sekarang?",
+        "Lagi sibuk apa?"
+      ],
+      "responses": [
+        "Saat ini saya tersedia untuk membantu Anda. Apakah ada yang bisa saya bantu?",
+        "Saya tidak terlalu sibuk, bagaimana saya bisa membantu Anda?",
+        "Saya siap untuk membantu, silakan beri tahu apa yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "menyampaikan_rasa_takut",
+      "patterns": [
+        "Takut banget",
+        "Lagi khawatir",
+        "Takut nih",
+        "Nggak tenang",
+        "Nggak nyaman"
+      ],
+      "responses": [
+        "Saya memahami kekhawatiran Anda. Jika Anda membutuhkan dukungan, saya siap membantu.",
+        "Rasa takut adalah hal yang wajar, semoga Anda bisa melalui ini dengan baik.",
+        "Jangan khawatir, segalanya akan berjalan dengan baik. Tetap tenang."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_sore",
+      "patterns": [
+        "Selamat sore",
+        "Sore!",
+        "Good afternoon",
+        "Apa kabar sore ini?",
+        "Sore ya!"
+      ],
+      "responses": [
+        "Selamat sore, semoga hari Anda menyenangkan.",
+        "Selamat sore, semoga hari Anda berjalan lancar.",
+        "Selamat sore, bagaimana kabar Anda hari ini?"
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_pagi",
+      "patterns": [
+        "Selamat pagi",
+        "Good morning",
+        "Pagi!",
+        "Apa kabar pagi ini?",
+        "Pagi ya!"
+      ],
+      "responses": [
+        "Selamat pagi, semoga hari Anda dimulai dengan baik.",
+        "Selamat pagi, semoga Anda menjalani hari dengan produktif.",
+        "Pagi yang cerah, semoga hari Anda menyenangkan."
+      ]
+    },
+    {
+      "tag": "menyampaikan_keluhan",
+      "patterns": [
+        "Lagi sebel",
+        "Kesel nih",
+        "Nggak suka banget",
+        "Lagi nggak mood",
+        "Bete banget"
+      ],
+      "responses": [
+        "Saya memahami keluhan Anda. Semoga suasana hati Anda segera membaik.",
+        "Saya mengerti, semoga keadaan segera berubah lebih baik.",
+        "Semoga perasaan tersebut bisa segera mereda. Jika ada yang bisa saya bantu, beri tahu saya."
+      ]
+    },
+    {
+      "tag": "meminta_konfirmasi",
+      "patterns": [
+        "Bener nggak?",
+        "Kamu yakin?",
+        "Serius?",
+        "Pastinya gimana?",
+        "Kamu yakin nih?"
+      ],
+      "responses": [
+        "Ya, saya yakin dengan informasi tersebut. Jika Anda membutuhkan klarifikasi lebih lanjut, saya siap membantu.",
+        "Tentu saja, informasi ini sudah diverifikasi. Namun, jika Anda masih ragu, saya bisa memeriksa kembali.",
+        "Saya yakin dengan jawabannya, tetapi saya siap untuk memastikan ulang jika Anda membutuhkan."
+      ]
+    },
+    {
+      "tag": "meminta_doa",
+      "patterns": [
+        "Doain aku ya",
+        "Minta doa dong",
+        "Bisa doain aku?",
+        "Tolong doakan aku",
+        "Minta doa untuk kelancaran",
+        "Doakan semoga lancar ya",
+        "Minta restu",
+        "Doain aku sukses ya",
+        "Tolong bantu doa ya"
+      ],
+      "responses": [
+        "Tentu, semoga segala urusan Anda diberikan kelancaran dan kemudahan.",
+        "Saya akan mendoakan yang terbaik untuk Anda, semoga segala sesuatunya berjalan lancar.",
+        "Semoga doa yang Anda panjatkan dikabulkan dengan hasil terbaik."
+      ]
+    },
+    {
+      "tag": "menanyakan_kepastian",
+      "patterns": [
+        "Jadi gimana?",
+        "Beneran jadi?",
+        "Akan dilaksanakan nggak?",
+        "Kepastiannya gimana?",
+        "Sudah ada keputusan?",
+        "Bener nggak jadinya?",
+        "Fix jadi kan?",
+        "Udah pasti belum?",
+        "Kabar terakhirnya gimana?"
+      ],
+      "responses": [
+        "Kepastiannya akan segera dikonfirmasi. Saya akan memberikan update sesegera mungkin.",
+        "Kami sedang menunggu kepastian, saya akan mengabarkan begitu ada informasi lebih lanjut.",
+        "Keputusannya akan segera disampaikan, mohon ditunggu sebentar."
+      ]
+    },
+    {
+      "tag": "meminta_maaf_terlambat",
+      "patterns": [
+        "Maaf telat ya",
+        "Sorry telat banget",
+        "Telat nih, maaf",
+        "Maaf baru bisa datang",
+        "Maaf, terlambat",
+        "Sorry ya, nggak bisa tepat waktu",
+        "Telat dikit nggak apa-apa?",
+        "Maaf udah bikin nunggu",
+        "Sorry, terlambat nyampe"
+      ],
+      "responses": [
+        "Tidak apa-apa, terima kasih sudah menginformasikan.",
+        "Terima kasih atas kabar Anda, tidak masalah jika sedikit terlambat.",
+        "Tidak masalah, semoga perjalanan Anda baik-baik saja."
+      ]
+    },
+    {
+      "tag": "menanyakan_status",
+      "patterns": [
+        "Bagaimana statusnya?",
+        "Sudah selesai belum?",
+        "Statusnya gimana sekarang?",
+        "Ada update?",
+        "Sudah beres belum?",
+        "Bagaimana hasilnya?",
+        "Ada kabar terbaru?",
+        "Sampai mana sekarang?",
+        "Progresnya gimana?"
+      ],
+      "responses": [
+        "Status saat ini sedang dalam proses. Saya akan memberikan kabar segera setelah ada update.",
+        "Masih dalam proses, saya akan segera mengabari Anda begitu selesai.",
+        "Prosesnya sedang berjalan, mohon bersabar untuk beberapa saat lagi."
+      ]
+    },
+    {
+      "tag": "menyampaikan_kebingungan",
+      "patterns": [
+        "Bingung deh",
+        "Aku nggak paham",
+        "Gimana ini?",
+        "Aku nggak ngerti",
+        "Bingung banget ini",
+        "Nggak jelas nih",
+        "Aku nggak bisa nangkep",
+        "Nggak ngerti sama sekali",
+        "Bisa dijelasin lagi?"
+      ],
+      "responses": [
+        "Saya bisa membantu menjelaskan lebih lanjut. Silakan jelaskan bagian mana yang membuat Anda bingung.",
+        "Jangan khawatir, saya akan membantu Anda memahami hal ini dengan lebih baik.",
+        "Jika Anda bingung, saya bisa memberikan penjelasan tambahan agar lebih jelas."
+      ]
+    },
+    {
+      "tag": "mengungkapkan_keingintahuan",
+      "patterns": [
+        "Penasaran deh",
+        "Aku pengen tahu",
+        "Bisa jelasin lebih detail?",
+        "Gimana caranya?",
+        "Aku pengen ngerti lebih banyak",
+        "Aku ingin tahu lebih lanjut",
+        "Boleh tahu lebih lanjut?",
+        "Tolong ceritain lebih dalam",
+        "Bisa kasih detailnya?"
+      ],
+      "responses": [
+        "Baik, saya akan menjelaskan lebih lanjut mengenai hal ini.",
+        "Saya akan memberikan penjelasan lebih detail. Silakan tunggu sebentar.",
+        "Berikut adalah penjelasan yang lebih rinci: [insert explanation]."
+      ]
+    },
+    {
+      "tag": "menanyakan_peraturan",
+      "patterns": [
+        "Peraturannya gimana?",
+        "Aturannya apa aja?",
+        "Bisa kasih tahu aturan?",
+        "Gimana peraturannya?",
+        "Apa saja yang dilarang?",
+        "Ada syaratnya nggak?",
+        "Apa yang harus diikuti?",
+        "Apa yang nggak boleh dilakukan?",
+        "Boleh tahu aturan lengkapnya?"
+      ],
+      "responses": [
+        "Berikut adalah peraturan yang harus diikuti: [insert rules].",
+        "Peraturannya sebagai berikut: [insert rules].",
+        "Anda dapat mengikuti aturan berikut untuk memastikan semuanya berjalan lancar."
+      ]
+    },
+    {
+      "tag": "menanyakan_penilaian",
+      "patterns": [
+        "Gimana menurutmu?",
+        "Pendapat kamu gimana?",
+        "Bisa kasih penilaian?",
+        "Pendapat kamu tentang ini?",
+        "Gimana tanggapan kamu?",
+        "Apa pandangan kamu?",
+        "Kira-kira bagaimana menurutmu?",
+        "Apa opini kamu?",
+        "Boleh tahu pandanganmu?"
+      ],
+      "responses": [
+        "Berdasarkan penilaian saya, ini adalah langkah yang baik. Namun, perlu dipertimbangkan beberapa aspek lain.",
+        "Pendapat saya adalah ini merupakan opsi yang dapat dipertimbangkan, namun ada baiknya jika ditinjau kembali dari segi [insert factors].",
+        "Saya rasa ini memiliki potensi, namun perlu dipertimbangkan beberapa hal lagi."
+      ]
+    },
+    {
+      "tag": "menyampaikan_harapan",
+      "patterns": [
+        "Semoga sukses",
+        "Harapannya semoga berhasil",
+        "Semoga lancar",
+        "Semoga beruntung",
+        "Harapan saya semoga sukses",
+        "Semoga semuanya berjalan baik",
+        "Semoga segalanya lancar",
+        "Harapannya semoga lancar",
+        "Semoga semua sesuai harapan"
+      ],
+      "responses": [
+        "Terima kasih atas harapan baiknya, semoga segala sesuatu berjalan sesuai rencana.",
+        "Harapan Anda sangat berarti, semoga apa yang diinginkan segera terwujud.",
+        "Terima kasih, semoga sukses selalu menyertai Anda juga."
+      ]
+    },
+    {
+      "tag": "meminta_referensi",
+      "patterns": [
+        "Ada referensi nggak?",
+        "Bisa kasih referensi?",
+        "Referensinya apa?",
+        "Butuh referensi dong",
+        "Minta referensi ya",
+        "Ada sumber yang bisa dibaca?",
+        "Bisa tolong kasih rekomendasi referensi?",
+        "Butuh tambahan bacaan, ada saran?",
+        "Referensi yang cocok apa ya?"
+      ],
+      "responses": [
+        "Berikut adalah beberapa referensi yang mungkin berguna: [insert references].",
+        "Silakan periksa referensi berikut: [insert references].",
+        "Saya telah menyusun beberapa referensi untuk Anda: [insert references]."
+      ]
+    },
+    {
+      "tag": "menyampaikan_rasa_senang",
+      "patterns": [
+        "Seneng banget",
+        "Bahagia nih",
+        "Gembira banget",
+        "Lagi happy",
+        "Seneng deh",
+        "Lagi merasa bahagia",
+        "Seneng banget hari ini",
+        "Bahagia rasanya",
+        "Lagi good mood nih"
+      ],
+      "responses": [
+        "Senang mendengar kabar baik dari Anda. Semoga kebahagiaan ini terus berlanjut.",
+        "Saya turut bahagia untuk Anda. Semoga hari-hari Anda semakin menyenangkan.",
+        "Puji Tuhan, semoga rasa bahagia ini terus menyertai Anda."
+      ]
+    },
+    {
+      "tag": "meminta_penundaan",
+      "patterns": [
+        "Bisa klarifikasi nggak?",
+        "Jelasin lagi dong",
+        "Kurang jelas, bisa dijelasin lagi?",
+        "Mohon penjelasan lebih lanjut",
+        "Bisa diperjelas?",
+        "Tolong kasih klarifikasi",
+        "Penjelasan belum jelas, bisa ulang?",
+        "Kurang jelas nih, bisa tolong diperjelas?",
+        "Bisa kasih penjelasan lebih detail?"
+      ],
+      "responses": [
+        "Tentu, kita bisa menjadwalkan ulang sesuai kebutuhan Anda.",
+        "Penundaan dapat dilakukan, silakan beri tahu waktu yang lebih sesuai untuk Anda.",
+        "Saya akan mengatur penundaan tersebut, dan akan memberikan kabar lebih lanjut."
+      ]
+    },
+    {
+      "tag": "meminta_klarifikasi",
+      "patterns": [
+        "Bisa klarifikasi nggak?",
+        "Jelasin lagi dong",
+        "Kurang jelas, bisa dijelasin lagi?",
+        "Mohon penjelasan lebih lanjut",
+        "Bisa diperjelas?",
+        "Tolong kasih klarifikasi",
+        "Penjelasan belum jelas, bisa ulang?",
+        "Kurang jelas nih, bisa tolong diperjelas?",
+        "Bisa kasih penjelasan lebih detail?"
+      ],
+      "responses": [
+        "Tentu, saya akan memberikan klarifikasi lebih lanjut. Mohon ditunggu sebentar.",
+        "Saya akan menjelaskan kembali dengan lebih jelas: [insert clarification].",
+        "Izinkan saya memberikan penjelasan tambahan agar lebih jelas."
+      ]
+    },
+    {
+      "tag": "mengungkapkan_kekhawatiran",
+      "patterns": [
+        "Khawatir deh",
+        "Takut nih",
+        "Nggak tenang rasanya",
+        "Cemas banget",
+        "Aku khawatir",
+        "Lagi kepikiran terus",
+        "Rasanya cemas banget",
+        "Ada rasa takut",
+        "Nggak nyaman rasanya"
+      ],
+      "responses": [
+        "Saya mengerti kekhawatiran Anda. Semoga keadaan segera membaik.",
+        "Perasaan khawatir adalah hal yang wajar, semoga Anda segera merasa lebih tenang.",
+        "Saya bisa memahami rasa cemas Anda, semoga semuanya segera kembali normal."
+      ]
+    },
+    {
+      "tag": "menyampaikan_penyemangat",
+      "patterns": [
+        "Ayo semangat!",
+        "Kamu pasti bisa!",
+        "Jangan menyerah!",
+        "Tetap semangat ya!",
+        "Jangan putus asa!",
+        "Kamu hebat, semangat terus",
+        "Keep going!",
+        "Jangan patah semangat!",
+        "Terus berjuang ya!"
+      ],
+      "responses": [
+        "Terima kasih atas dorongan semangatnya, sangat saya hargai.",
+        "Ucapan semangat Anda sangat berarti, terima kasih banyak.",
+        "Saya sangat menghargai dorongan semangat dari Anda, terima kasih."
+      ]
+    },
+    {
+      "tag": "menanyakan_prioritas",
+      "patterns": [
+        "Yang mana dulu?",
+        "Prioritasnya apa?",
+        "Harus mulai dari mana?",
+        "Mana yang lebih penting?",
+        "Mana yang harus dikerjakan dulu?",
+        "Apa yang harus diprioritaskan?",
+        "Mana yang harus selesai duluan?",
+        "Bantu tentuin prioritas dong",
+        "Mana yang paling penting?"
+      ],
+      "responses": [
+        "Saya menyarankan untuk memulai dengan yang paling mendesak terlebih dahulu, kemudian yang lain bisa diselesaikan setelahnya.",
+        "Prioritas utama sebaiknya difokuskan pada [insert priority], agar pekerjaan lebih efektif.",
+        "Sebaiknya mulai dari tugas yang memiliki dampak paling besar terlebih dahulu."
+      ]
+    },
+    {
+      "tag": "menyampaikan_rasa_kesal",
+      "patterns": [
+        "Kesel banget nih",
+        "Aku marah",
+        "Nggak suka banget",
+        "Bete deh",
+        "Kecewa banget",
+        "Rasanya nggak enak",
+        "Lagi kesel banget",
+        "Lagi jengkel",
+        "Kesel rasanya"
+      ],
+      "responses": [
+        "Saya mengerti perasaan Anda, semoga Anda bisa segera merasa lebih baik.",
+        "Saya memahami rasa kecewa Anda. Jika ada yang bisa saya bantu, silakan beri tahu.",
+        "Keadaan yang mengecewakan memang bisa membuat kesal, semoga segera membaik."
+      ]
+    },
+    {
+      "tag": "menanyakan_progress",
+      "patterns": [
+        "Progresnya gimana?",
+        "Udah sampai mana?",
+        "Bagaimana perkembangannya?",
+        "Sudah sejauh mana?",
+        "Ada update tentang progresnya?",
+        "Sampai mana sekarang?",
+        "Ada kabar soal progress?",
+        "Perkembangannya gimana?",
+        "Sudah ada kemajuan?"
+      ],
+      "responses": [
+        "Prosesnya sedang berjalan dengan lancar. Saya akan segera memberikan update lebih lanjut.",
+        "Progres saat ini berada di tahap [insert stage]. Saya akan memberikan informasi lebih lanjut setelah selesai.",
+        "Prosesnya masih berjalan, saya akan menginformasikan Anda setelah ada perkembangan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "mengucapkan_perhatian",
+      "patterns": [
+        "Hati-hati ya",
+        "Jaga kesehatan",
+        "Semoga selamat sampai tujuan",
+        "Jaga diri baik-baik ya",
+        "Semoga perjalanan aman",
+        "Jaga keselamatan ya",
+        "Jangan lupa istirahat",
+        "Hati-hati di jalan ya",
+        "Stay safe ya"
+      ],
+      "responses": [
+        "Terima kasih atas perhatian Anda, semoga Anda juga selalu dalam keadaan sehat.",
+        "Terima kasih, semoga Anda juga selalu dilindungi dan sehat.",
+        "Saya sangat menghargai perhatian Anda, terima kasih."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_senin",
+      "patterns": [
+        "Selamat hari Senin",
+        "Happy Monday!",
+        "Selamat menjalani hari Senin",
+        "Semangat hari Senin!",
+        "Apa kabar Senin ini?",
+        "Senin semangat ya!",
+        "Selamat datang di hari Senin",
+        "Senin, semoga lancar!",
+        "Awali Senin dengan semangat",
+        "Bagaimana Senin ini?",
+        "Selamat memulai minggu baru!"
+      ],
+      "responses": [
+        "Selamat hari Senin, semoga minggu ini produktif untuk Anda.",
+        "Semoga hari Senin ini membawa semangat baru untuk Anda.",
+        "Senin yang cerah, semoga Anda menjalani hari dengan penuh semangat!",
+        "Selamat beraktivitas di hari Senin, semoga semuanya berjalan lancar.",
+        "Senin ini semoga menjadi awal yang baik untuk minggu Anda.",
+        "Semoga semangat Senin membuat hari Anda lebih produktif.",
+        "Selamat hari Senin, semoga Anda memulai minggu ini dengan penuh energi positif."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_selasa",
+      "patterns": [
+        "Selamat hari Selasa",
+        "Happy Tuesday!",
+        "Selamat menjalani hari Selasa",
+        "Semangat Selasa!",
+        "Selasa yang cerah ya!",
+        "Gimana hari Selasa ini?",
+        "Selasa, semoga produktif!",
+        "Semoga Selasa Anda lancar",
+        "Selamat bekerja di hari Selasa",
+        "Bagaimana hari Selasa Anda?",
+        "Selamat menikmati Selasa ini!"
+      ],
+      "responses": [
+        "Selamat hari Selasa, semoga hari Anda berjalan lancar.",
+        "Selamat menjalani hari Selasa, semoga penuh produktivitas.",
+        "Hari Selasa ini semoga membawa kebahagiaan dan kelancaran untuk Anda.",
+        "Semoga Selasa Anda menyenangkan dan penuh kebaikan.",
+        "Selamat hari Selasa, semoga tugas-tugas Anda terselesaikan dengan baik.",
+        "Selasa adalah hari yang tepat untuk terus maju, semoga hari Anda produktif.",
+        "Semoga hari Selasa ini memberi Anda kesempatan baru untuk berkembang."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_rabu",
+      "patterns": [
+        "Selamat hari Rabu",
+        "Happy Wednesday!",
+        "Selamat menjalani hari Rabu",
+        "Semangat Rabu!",
+        "Bagaimana hari Rabunya?",
+        "Rabu semangat ya!",
+        "Rabu, semoga harinya lancar!",
+        "Selamat beraktivitas di hari Rabu",
+        "Rabu, hari pertengahan minggu!",
+        "Gimana hari Rabu ini?",
+        "Selamat menjalani Rabu yang produktif!"
+      ],
+      "responses": [
+        "Selamat hari Rabu, semoga semuanya berjalan sesuai rencana.",
+        "Selamat beraktivitas di hari Rabu, semoga penuh keberkahan.",
+        "Rabu yang produktif, semoga semua rencana berjalan lancar.",
+        "Selamat menjalani hari Rabu, semoga sukses selalu menyertai Anda.",
+        "Rabu ini adalah hari yang tepat untuk fokus pada tujuan Anda, semoga lancar!",
+        "Semoga Rabu Anda penuh dengan inspirasi dan kebaikan.",
+        "Hari Rabu, semoga menjadi pertengahan minggu yang produktif dan berenergi."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_kamis",
+      "patterns": [
+        "Selamat hari Kamis",
+        "Happy Thursday!",
+        "Selamat menjalani hari Kamis",
+        "Semangat hari Kamis!",
+        "Bagaimana Kamis ini?",
+        "Kamis produktif ya!",
+        "Selamat datang di hari Kamis",
+        "Kamis ceria ya!",
+        "Selamat menjalani Kamis yang menyenangkan",
+        "Apa rencana Kamis ini?",
+        "Semoga Kamis ini berjalan lancar!"
+      ],
+      "responses": [
+        "Selamat hari Kamis, semoga hari ini penuh dengan kebaikan.",
+        "Semoga hari Kamis ini membawa banyak hal baik untuk Anda.",
+        "Kamis yang cerah, semoga Anda menjalani hari dengan semangat dan kebahagiaan.",
+        "Selamat menjalani hari Kamis, semoga hari ini berjalan lancar.",
+        "Hari Kamis adalah saatnya untuk menyelesaikan hal-hal penting, semoga sukses!",
+        "Semoga Kamis Anda penuh energi positif dan produktivitas.",
+        "Hari Kamis ini semoga membawa banyak kesempatan baru dan hal baik untuk Anda."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_jumat",
+      "patterns": [
+        "Selamat hari Jumat",
+        "Happy Friday!",
+        "Selamat menjalani hari Jumat",
+        "Semangat Jumat!",
+        "Bagaimana Jumat ini?",
+        "Jumat penuh berkah ya!",
+        "Selamat datang di hari Jumat",
+        "Jumat, hari penuh berkah",
+        "Semoga Jumat ini lancar",
+        "Selamat menikmati hari Jumat",
+        "Jumat berkah, semoga sukses!"
+      ],
+      "responses": [
+        "Selamat hari Jumat, semoga hari ini menjadi berkah untuk Anda.",
+        "Jumat yang penuh berkah, semoga semua urusan Anda lancar.",
+        "Semoga hari Jumat ini membawa banyak kebaikan dan keberkahan untuk Anda.",
+        "Selamat menjalani hari Jumat, semoga sukses dan berkah selalu menyertai Anda.",
+        "Jumat adalah hari yang penuh kesempatan, semoga Anda meraihnya dengan baik.",
+        "Selamat hari Jumat, semoga akhir pekan Anda dimulai dengan baik.",
+        "Semoga Jumat ini membawa kebahagiaan dan keberkahan yang melimpah."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_sabtu",
+      "patterns": [
+        "Selamat hari Sabtu",
+        "Happy Saturday!",
+        "Selamat menjalani hari Sabtu",
+        "Semangat Sabtu!",
+        "Bagaimana Sabtu ini?",
+        "Selamat menikmati akhir pekan!",
+        "Sabtu yang menyenangkan ya!",
+        "Selamat beristirahat di hari Sabtu",
+        "Sabtu, waktunya santai!",
+        "Apa rencana hari Sabtu ini?",
+        "Semoga Sabtu Anda penuh kesenangan"
+      ],
+      "responses": [
+        "Selamat hari Sabtu, semoga akhir pekan ini menyenangkan.",
+        "Semoga Sabtu ini membawa keceriaan dan kebahagiaan untuk Anda.",
+        "Selamat menikmati hari Sabtu, semoga penuh dengan hal-hal menyenangkan.",
+        "Sabtu yang indah, semoga hari ini membawa banyak kebaikan untuk Anda.",
+        "Akhir pekan yang ceria, semoga Sabtu Anda dipenuhi aktivitas yang menyenangkan.",
+        "Hari Sabtu adalah waktu untuk bersantai, semoga Anda menikmati waktu istirahat Anda.",
+        "Selamat menjalani Sabtu yang tenang dan menyenangkan, semoga hari Anda penuh kebahagiaan."
+      ]
+    },
+    {
+      "tag": "mengucapkan_selamat_minggu",
+      "patterns": [
+        "Selamat hari Minggu",
+        "Happy Sunday!",
+        "Selamat menjalani hari Minggu",
+        "Bagaimana hari Minggu ini?",
+        "Selamat menikmati hari Minggu",
+        "Minggu santai ya!",
+        "Selamat beristirahat di hari Minggu",
+        "Minggu penuh kebahagiaan!",
+        "Minggu, waktunya bersantai",
+        "Selamat menikmati Minggu yang cerah",
+        "Minggu, semoga menyenangkan!"
+      ],
+      "responses": [
+        "Selamat hari Minggu, semoga Anda menikmati hari istirahat.",
+        "Semoga hari Minggu ini menjadi hari yang tenang dan menyenangkan untuk Anda.",
+        "Selamat beristirahat di hari Minggu, semoga tubuh dan pikiran Anda kembali segar.",
+        "Hari Minggu yang tenang, semoga membawa kebahagiaan dan relaksasi untuk Anda.",
+        "Semoga Minggu ini memberi Anda waktu untuk bersantai dan mempersiapkan minggu berikutnya.",
+        "Hari Minggu adalah hari untuk beristirahat dan menikmati waktu dengan keluarga, semoga menyenangkan!",
+        "Selamat menikmati hari Minggu yang cerah, semoga kebahagiaan menyertai Anda sepanjang hari."
+      ]
+    },
+    {
+      "tag": "meminta_penjelasan_tambahan",
+      "patterns": [
+        "Bisa jelaskan lebih lanjut?",
+        "Penjelasannya kurang lengkap",
+        "Tolong perjelas lagi",
+        "Ada penjelasan tambahan?",
+        "Jelaskan lebih dalam dong",
+        "Mohon penjelasan lebih rinci",
+        "Bisa kasih detail lebih lanjut?",
+        "Tolong tambahkan informasi",
+        "Bisa kasih lebih banyak informasi?"
+      ],
+      "responses": [
+        "Baik, saya akan memberikan penjelasan tambahan untuk memperjelas: [insert explanation].",
+        "Saya akan menjelaskan lebih dalam tentang hal ini: [insert explanation].",
+        "Berikut adalah penjelasan tambahan yang semoga bisa membantu pemahaman Anda."
+      ]
+    },
+    {
+      "tag": "menanyakan_dukungan",
+      "patterns": [
+        "Bisa dukung nggak?",
+        "Kasih support dong",
+        "Butuh dukungan nih",
+        "Dukung aku ya",
+        "Bisa bantu dengan support?",
+        "Tolong kasih dukungan",
+        "Bisa tolong dukung?",
+        "Aku butuh dukunganmu",
+        "Support aku dong"
+      ],
+      "responses": [
+        "Tentu saja, saya mendukung penuh usaha Anda. Semoga berhasil.",
+        "Saya akan memberikan dukungan terbaik untuk Anda. Semoga sukses.",
+        "Saya mendukung penuh langkah Anda, semoga sukses selalu menyertai."
+      ]
+    },
+    {
+      "tag": "mengucapkan_takut",
+      "patterns": [
+        "Takut banget",
+        "Aku takut",
+        "Nggak nyaman nih",
+        "Lagi khawatir banget",
+        "Bikin takut deh",
+        "Aku takut salah",
+        "Cemas banget jadinya",
+        "Aku nggak tenang",
+        "Deg-degan takut salah"
+      ],
+      "responses": [
+        "Saya mengerti ketakutan Anda, semoga semuanya segera membaik.",
+        "Saya paham rasa khawatir Anda, semoga Anda segera merasa lebih tenang.",
+        "Rasa takut adalah hal yang wajar, semoga Anda bisa melalui ini dengan baik."
+      ]
+    },
+    {
+      "tag": "menanyakan_ketersediaan",
+      "patterns": [
+        "Ada nggak?",
+        "Masih tersedia nggak?",
+        "Bisa dicek barangnya ada?",
+        "Masih ada nggak?",
+        "Masih tersedia kah?",
+        "Bisa kasih tahu ketersediaannya?",
+        "Apakah masih ada stok?",
+        "Barang ini tersedia nggak?",
+        "Masih ada atau sudah habis?"
+      ],
+      "responses": [
+        "Barang tersebut masih tersedia, silakan lanjutkan pemesanan.",
+        "Ketersediaan barang masih ada, semoga informasi ini membantu.",
+        "Barang tersebut tersedia untuk saat ini, apakah ada yang ingin Anda tanyakan lebih lanjut?"
+      ]
+    },
+    {
+      "tag": "meminta_saran",
+      "patterns": [
+        "Ada saran nggak?",
+        "Bisa kasih saran?",
+        "Sarannya apa ya?",
+        "Saran dong",
+        "Butuh saran nih",
+        "Bisa tolong kasih saran?",
+        "Ada masukan?",
+        "Minta saran dong",
+        "Boleh tahu sarannya?"
+      ],
+      "responses": [
+        "Berikut adalah saran saya: [insert advice]. Semoga membantu.",
+        "Saya menyarankan agar Anda mempertimbangkan hal-hal berikut: [insert advice].",
+        "Saran terbaik saya adalah: [insert advice]."
+      ]
+    },
+    {
+      "tag": "mengucapkan_peringatan",
+      "patterns": [
+        "Hati-hati ya",
+        "Jangan sembarangan",
+        "Perlu waspada",
+        "Waspada ya",
+        "Harus hati-hati nih",
+        "Jangan ceroboh",
+        "Lebih baik hati-hati",
+        "Perlu lebih waspada",
+        "Jaga keselamatan ya"
+      ],
+      "responses": [
+        "Terima kasih atas peringatannya, saya akan lebih berhati-hati.",
+        "Saya sangat menghargai peringatan Anda. Akan lebih waspada mulai sekarang.",
+        "Terima kasih atas nasihatnya, saya akan lebih berhati-hati."
+      ]
+    },
+    {
+      "tag": "menanyakan_ijin",
+      "patterns": [
+        "Boleh nggak?",
+        "Bisa minta izin?",
+        "Boleh saya lakukan?",
+        "Izin dulu ya",
+        "Boleh nggak aku coba?",
+        "Boleh nggak sih?",
+        "Minta izin dulu ya",
+        "Apa aku diizinkan?",
+        "Bisa aku mulai?"
+      ],
+      "responses": [
+        "Tentu, Anda boleh melanjutkan. Silakan.",
+        "Anda diizinkan untuk melakukannya, silakan lanjut.",
+        "Izin diberikan, semoga sukses."
+      ]
+    },
+    {
+      "tag": "mengucapkan_belasungkawa",
+      "patterns": [
+        "Turut berduka cita",
+        "Saya ikut berduka",
+        "Semoga kuat ya",
+        "Turut berduka atas kehilangan",
+        "Saya turut berbelasungkawa",
+        "Turut berduka atas kepergian",
+        "Semoga diberi ketabahan",
+        "Saya ikut merasa kehilangan",
+        "Semoga keluarga diberi kekuatan"
+      ],
+      "responses": [
+        "Saya turut berduka cita atas kehilangan Anda. Semoga Anda dan keluarga diberikan kekuatan.",
+        "Turut berbelasungkawa, semoga keluarga yang ditinggalkan diberi ketabahan.",
+        "Semoga Anda dan keluarga diberi kekuatan dalam menghadapi masa sulit ini."
+      ]
+    },
+    {
+      "tag": "meminta_ditunggu",
+      "patterns": [
+        "Tunggu ya",
+        "Sebentar ya",
+        "Bisa tunggu sebentar?",
+        "Tunggu sebentar ya",
+        "Mohon ditunggu",
+        "Bentar aja ya",
+        "Sebentar lagi ya",
+        "Tunggu dikit ya",
+        "Bisa sabar sebentar?"
+      ],
+      "responses": [
+        "Tentu, saya akan menunggu. Silakan lanjutkan setelah Anda siap.",
+        "Baik, saya akan menunggu sampai Anda siap melanjutkan.",
+        "Tidak masalah, saya akan menunggu sebentar."
+      ]
+    },
+    {
+      "tag": "menyampaikan_rasa_malu",
+      "patterns": [
+        "Maaf ya malu banget",
+        "Aku malu nih",
+        "Malu deh",
+        "Nggak enak hati",
+        "Maaf, jadi malu",
+        "Malu rasanya",
+        "Aduh, aku jadi malu",
+        "Nggak enak banget",
+        "Sorry, aku malu banget"
+      ],
+      "responses": [
+        "Tidak masalah, tidak ada yang perlu dimalukan. Semua baik-baik saja.",
+        "Mohon jangan merasa malu, saya sangat memahami situasi Anda.",
+        "Tidak perlu khawatir, semuanya berjalan baik."
+      ]
+    },
+    {
+      "tag": "menanyakan_hasil",
+      "patterns": [
+        "Hasilnya gimana?",
+        "Sudah ada hasil?",
+        "Hasilnya apa?",
+        "Bisa kasih tahu hasilnya?",
+        "Apa hasilnya?",
+        "Gimana hasil akhirnya?",
+        "Sudah keluar hasilnya?",
+        "Hasil akhirnya apa?",
+        "Bisa kasih info hasilnya?"
+      ],
+      "responses": [
+        "Hasilnya adalah sebagai berikut: [insert result].",
+        "Berikut adalah hasil yang sudah kami terima: [insert result].",
+        "Hasilnya sudah keluar, Anda dapat melihat detailnya di sini: [insert result]."
+      ]
+    },
+    {
+      "tag": "tanya_sekolah",
+      "patterns": [
+        "Apa itu sekolah?",
+        "Bagaimana sistem sekolah di sini?",
+        "Sekolah ini seperti apa?",
+        "Sekolah yang bagus di mana?",
+        "Sekolah terbaik untuk anak?"
+      ],
+      "responses": [
+        "Sekolah adalah lembaga pendidikan formal tempat siswa belajar dengan bimbingan guru.",
+        "Sistem sekolah biasanya terdiri dari tingkatan pendidikan seperti SD, SMP, dan SMA.",
+        "Sekolah ini memiliki program akademik dan ekstrakurikuler yang beragam.",
+        "Sekolah terbaik dapat dipilih berdasarkan akreditasi dan reputasi.",
+        "Untuk sekolah terbaik, Anda bisa melihat rekomendasi berdasarkan lokasi dan kebutuhan."
+      ]
+    },
+    {
+      "tag": "tanya_universitas",
+      "patterns": [
+        "Apa itu universitas?",
+        "Bagaimana sistem universitas di Indonesia?",
+        "Universitas mana yang terbaik?",
+        "Apa saja universitas yang ada di kota ini?",
+        "Bagaimana cara masuk universitas?"
+      ],
+      "responses": [
+        "Universitas adalah lembaga pendidikan tinggi yang menawarkan program sarjana hingga doktoral.",
+        "Sistem universitas di Indonesia biasanya terdiri dari program diploma, sarjana, magister, dan doktoral.",
+        "Beberapa universitas terbaik di Indonesia antara lain UI, UGM, dan ITB.",
+        "Universitas di kota ini cukup banyak, Anda bisa memilih berdasarkan jurusan yang diinginkan.",
+        "Untuk masuk universitas, biasanya melalui jalur tes seperti SBMPTN atau jalur mandiri."
+      ]
+    },
+    {
+      "tag": "tanya_pendaftaran_sekolah",
+      "patterns": [
+        "Bagaimana cara daftar sekolah?",
+        "Kapan pendaftaran sekolah dibuka?",
+        "Apa syarat pendaftaran sekolah?",
+        "Bagaimana proses pendaftaran sekolah?",
+        "Apa dokumen yang diperlukan untuk daftar sekolah?"
+      ],
+      "responses": [
+        "Cara daftar sekolah biasanya dengan mengisi formulir pendaftaran dan menyerahkan dokumen yang diperlukan.",
+        "Pendaftaran sekolah biasanya dibuka setiap tahun ajaran baru, sekitar bulan Juni atau Juli.",
+        "Syarat pendaftaran sekolah meliputi dokumen seperti akta kelahiran, kartu keluarga, dan rapor.",
+        "Proses pendaftaran sekolah dimulai dari pengisian formulir, seleksi administrasi, dan wawancara jika diperlukan.",
+        "Dokumen yang diperlukan untuk daftar sekolah biasanya meliputi fotokopi akta kelahiran, kartu keluarga, dan foto."
+      ]
+    },
+    {
+      "tag": "tanya_pendaftaran_kampus",
+      "patterns": [
+        "Bagaimana cara mendaftar ke universitas?",
+        "Apa syarat untuk masuk universitas?",
+        "Bagaimana prosedur pendaftaran kuliah?",
+        "Kapan pendaftaran universitas dibuka?",
+        "Dokumen apa yang diperlukan untuk daftar kuliah?"
+      ],
+      "responses": [
+        "Cara mendaftar universitas biasanya melalui jalur tes atau jalur prestasi akademik.",
+        "Syarat masuk universitas bervariasi, tapi umumnya membutuhkan ijazah SMA dan nilai ujian nasional atau tes masuk.",
+        "Prosedur pendaftaran kuliah melibatkan pengisian formulir online dan pengiriman dokumen akademik.",
+        "Pendaftaran universitas biasanya dibuka sekitar bulan Maret hingga Agustus, tergantung kalender akademik.",
+        "Dokumen yang diperlukan untuk daftar kuliah termasuk ijazah SMA, rapor, dan hasil tes masuk universitas."
+      ]
+    },
+    {
+      "tag": "info_beasiswa",
+      "patterns": [
+        "Apa saja jenis beasiswa yang ada?",
+        "Bagaimana cara mendapatkan beasiswa?",
+        "Apa syarat mendapatkan beasiswa?",
+        "Ada beasiswa untuk mahasiswa berprestasi?",
+        "Beasiswa apa yang tersedia di universitas ini?"
+      ],
+      "responses": [
+        "Beasiswa terdiri dari beasiswa prestasi, beasiswa bantuan biaya, dan beasiswa penelitian.",
+        "Cara mendapatkan beasiswa adalah dengan memenuhi syarat akademik dan non-akademik yang ditetapkan.",
+        "Syarat mendapatkan beasiswa biasanya meliputi prestasi akademik, aktivitas organisasi, dan kemampuan finansial.",
+        "Ada beasiswa untuk mahasiswa berprestasi yang diberikan berdasarkan nilai akademik dan kontribusi ekstrakurikuler.",
+        "Universitas ini menyediakan beberapa jenis beasiswa, baik dari pemerintah maupun swasta."
+      ]
+    },
+    {
+      "tag": "info_biaya_sekolah",
+      "patterns": [
+        "Berapa biaya sekolah?",
+        "Bagaimana biaya pendidikan di sekolah ini?",
+        "Apakah ada biaya tambahan di sekolah?",
+        "Berapa uang SPP per bulan?",
+        "Apakah ada biaya masuk sekolah?"
+      ],
+      "responses": [
+        "Biaya sekolah bervariasi tergantung jenjang pendidikan dan fasilitas yang disediakan.",
+        "Biaya pendidikan di sekolah ini meliputi SPP, biaya kegiatan, dan biaya seragam.",
+        "Biasanya ada biaya tambahan untuk kegiatan ekstrakurikuler atau buku pelajaran.",
+        "Uang SPP per bulan sekitar [insert nominal] tergantung jenjang pendidikan.",
+        "Ada biaya masuk sekolah yang meliputi uang pendaftaran dan pembangunan."
+      ]
+    },
+    {
+      "tag": "info_biaya_universitas",
+      "patterns": [
+        "Berapa biaya kuliah di universitas ini?",
+        "Apakah universitas ini mahal?",
+        "Berapa uang kuliah per semester?",
+        "Apa saja biaya yang harus dibayar selama kuliah?",
+        "Apakah ada biaya tambahan selain SPP?"
+      ],
+      "responses": [
+        "Biaya kuliah di universitas ini tergantung jurusan dan program studi yang diambil.",
+        "Universitas ini menawarkan biaya kuliah yang kompetitif dan tersedia beasiswa untuk meringankan biaya.",
+        "Uang kuliah per semester biasanya berkisar antara [insert nominal], tergantung program studi.",
+        "Biaya yang harus dibayar selama kuliah meliputi SPP, uang praktikum, dan biaya kegiatan mahasiswa.",
+        "Ada beberapa biaya tambahan seperti uang praktikum dan modul, tergantung jurusan."
+      ]
+    },
+    {
+      "tag": "tips_belajar_efektif",
+      "patterns": [
+        "Bagaimana cara belajar yang efektif?",
+        "Apa tips belajar yang baik?",
+        "Gimana caranya supaya belajar lebih produktif?",
+        "Bagaimana cara meningkatkan konsentrasi belajar?",
+        "Apa metode belajar yang paling efektif?"
+      ],
+      "responses": [
+        "Cara belajar efektif adalah dengan membuat jadwal belajar, fokus pada satu topik, dan menggunakan metode aktif seperti membuat catatan.",
+        "Tips belajar yang baik adalah dengan mengatur waktu belajar yang konsisten, hindari multitasking, dan gunakan teknik pomodoro.",
+        "Untuk belajar lebih produktif, cobalah fokus pada satu hal dalam satu waktu dan berikan jeda istirahat yang cukup.",
+        "Meningkatkan konsentrasi bisa dilakukan dengan belajar di tempat yang tenang dan meminimalkan gangguan.",
+        "Metode belajar yang efektif meliputi membaca aktif, membuat ringkasan, dan mengajarkan materi kepada orang lain."
+      ]
+    },
+    {
+      "tag": "tips_persiapan_ujian",
+      "patterns": [
+        "Bagaimana cara mempersiapkan diri untuk ujian?",
+        "Apa tips menghadapi ujian?",
+        "Bagaimana cara belajar untuk ujian agar efektif?",
+        "Apa yang harus dilakukan sebelum ujian?",
+        "Bagaimana cara mengurangi stres sebelum ujian?"
+      ],
+      "responses": [
+        "Persiapkan diri untuk ujian dengan membuat jadwal belajar jauh hari dan memahami materi ujian secara menyeluruh.",
+        "Tips menghadapi ujian adalah dengan belajar secara bertahap, tidur cukup, dan makan makanan yang sehat sebelum ujian.",
+        "Belajar untuk ujian lebih efektif jika dilakukan secara terstruktur dengan membuat catatan ringkas dan latihan soal.",
+        "Sebelum ujian, pastikan untuk beristirahat yang cukup dan tidak belajar secara berlebihan pada malam sebelumnya.",
+        "Mengurangi stres sebelum ujian bisa dilakukan dengan latihan pernapasan dan menjaga pola tidur yang baik."
+      ]
+    },
+    {
+      "tag": "tanya_ujian_online",
+      "patterns": [
+        "Bagaimana cara ikut ujian online?",
+        "Apa persiapan untuk ujian online?",
+        "Bagaimana format ujian online?",
+        "Apakah ada aturan khusus untuk ujian online?",
+        "Bagaimana cara mendaftar ujian online?"
+      ],
+      "responses": [
+        "Untuk ikut ujian online, pastikan Anda memiliki koneksi internet yang stabil dan perangkat yang memadai.",
+        "Persiapan untuk ujian online meliputi pengecekan perangkat dan memastikan platform ujian sudah siap digunakan.",
+        "Format ujian online bisa berupa pilihan ganda, esai, atau kombinasi keduanya, tergantung mata pelajaran.",
+        "Ada beberapa aturan khusus seperti pengawasan melalui webcam dan pembatasan waktu.",
+        "Untuk mendaftar ujian online, ikuti prosedur yang telah ditentukan oleh sekolah atau universitas."
+      ]
+    },
+    {
+      "tag": "tanya_sekolah",
+      "patterns": [
+        "Apa itu sekolah?",
+        "Bagaimana sistem sekolah di sini?",
+        "Sekolah ini seperti apa?",
+        "Sekolah yang bagus di mana?",
+        "Sekolah terbaik untuk anak?"
+      ],
+      "responses": [
+        "Sekolah adalah lembaga pendidikan formal tempat siswa belajar dengan bimbingan guru.",
+        "Sistem sekolah biasanya terdiri dari tingkatan pendidikan seperti SD, SMP, dan SMA.",
+        "Sekolah ini memiliki program akademik dan ekstrakurikuler yang beragam.",
+        "Sekolah terbaik dapat dipilih berdasarkan akreditasi dan reputasi.",
+        "Untuk sekolah terbaik, Anda bisa melihat rekomendasi berdasarkan lokasi dan kebutuhan."
+      ]
+    },
+    {
+      "tag": "tanya_universitas",
+      "patterns": [
+        "Apa itu universitas?",
+        "Bagaimana sistem universitas di Indonesia?",
+        "Universitas mana yang terbaik?",
+        "Apa saja universitas yang ada di kota ini?",
+        "Bagaimana cara masuk universitas?"
+      ],
+      "responses": [
+        "Universitas adalah lembaga pendidikan tinggi yang menawarkan program sarjana hingga doktoral.",
+        "Sistem universitas di Indonesia biasanya terdiri dari program diploma, sarjana, magister, dan doktoral.",
+        "Beberapa universitas terbaik di Indonesia antara lain UI, UGM, dan ITB.",
+        "Universitas di kota ini cukup banyak, Anda bisa memilih berdasarkan jurusan yang diinginkan.",
+        "Untuk masuk universitas, biasanya melalui jalur tes seperti SBMPTN atau jalur mandiri."
+      ]
+    },
+    {
+      "tag": "tanya_pendaftaran_sekolah",
+      "patterns": [
+        "Bagaimana cara daftar sekolah?",
+        "Kapan pendaftaran sekolah dibuka?",
+        "Apa syarat pendaftaran sekolah?",
+        "Bagaimana proses pendaftaran sekolah?",
+        "Apa dokumen yang diperlukan untuk daftar sekolah?"
+      ],
+      "responses": [
+        "Cara daftar sekolah biasanya dengan mengisi formulir pendaftaran dan menyerahkan dokumen yang diperlukan.",
+        "Pendaftaran sekolah biasanya dibuka setiap tahun ajaran baru, sekitar bulan Juni atau Juli.",
+        "Syarat pendaftaran sekolah meliputi dokumen seperti akta kelahiran, kartu keluarga, dan rapor.",
+        "Proses pendaftaran sekolah dimulai dari pengisian formulir, seleksi administrasi, dan wawancara jika diperlukan.",
+        "Dokumen yang diperlukan untuk daftar sekolah biasanya meliputi fotokopi akta kelahiran, kartu keluarga, dan foto."
+      ]
+    },
+    {
+      "tag": "tanya_pendaftaran_kampus",
+      "patterns": [
+        "Bagaimana cara mendaftar ke universitas?",
+        "Apa syarat untuk masuk universitas?",
+        "Bagaimana prosedur pendaftaran kuliah?",
+        "Kapan pendaftaran universitas dibuka?",
+        "Dokumen apa yang diperlukan untuk daftar kuliah?"
+      ],
+      "responses": [
+        "Cara mendaftar universitas biasanya melalui jalur tes atau jalur prestasi akademik.",
+        "Syarat masuk universitas bervariasi, tapi umumnya membutuhkan ijazah SMA dan nilai ujian nasional atau tes masuk.",
+        "Prosedur pendaftaran kuliah melibatkan pengisian formulir online dan pengiriman dokumen akademik.",
+        "Pendaftaran universitas biasanya dibuka sekitar bulan Maret hingga Agustus, tergantung kalender akademik.",
+        "Dokumen yang diperlukan untuk daftar kuliah termasuk ijazah SMA, rapor, dan hasil tes masuk universitas."
+      ]
+    },
+    {
+      "tag": "info_beasiswa",
+      "patterns": [
+        "Apa saja jenis beasiswa yang ada?",
+        "Bagaimana cara mendapatkan beasiswa?",
+        "Apa syarat mendapatkan beasiswa?",
+        "Ada beasiswa untuk mahasiswa berprestasi?",
+        "Beasiswa apa yang tersedia di universitas ini?"
+      ],
+      "responses": [
+        "Beasiswa terdiri dari beasiswa prestasi, beasiswa bantuan biaya, dan beasiswa penelitian.",
+        "Cara mendapatkan beasiswa adalah dengan memenuhi syarat akademik dan non-akademik yang ditetapkan.",
+        "Syarat mendapatkan beasiswa biasanya meliputi prestasi akademik, aktivitas organisasi, dan kemampuan finansial.",
+        "Ada beasiswa untuk mahasiswa berprestasi yang diberikan berdasarkan nilai akademik dan kontribusi ekstrakurikuler.",
+        "Universitas ini menyediakan beberapa jenis beasiswa, baik dari pemerintah maupun swasta."
+      ]
+    },
+    {
+      "tag": "info_biaya_sekolah",
+      "patterns": [
+        "Berapa biaya sekolah?",
+        "Bagaimana biaya pendidikan di sekolah ini?",
+        "Apakah ada biaya tambahan di sekolah?",
+        "Berapa uang SPP per bulan?",
+        "Apakah ada biaya masuk sekolah?"
+      ],
+      "responses": [
+        "Biaya sekolah bervariasi tergantung jenjang pendidikan dan fasilitas yang disediakan.",
+        "Biaya pendidikan di sekolah ini meliputi SPP, biaya kegiatan, dan biaya seragam.",
+        "Biasanya ada biaya tambahan untuk kegiatan ekstrakurikuler atau buku pelajaran.",
+        "Uang SPP per bulan sekitar [insert nominal] tergantung jenjang pendidikan.",
+        "Ada biaya masuk sekolah yang meliputi uang pendaftaran dan pembangunan."
+      ]
+    },
+    {
+      "tag": "info_biaya_universitas",
+      "patterns": [
+        "Berapa biaya kuliah di universitas ini?",
+        "Apakah universitas ini mahal?",
+        "Berapa uang kuliah per semester?",
+        "Apa saja biaya yang harus dibayar selama kuliah?",
+        "Apakah ada biaya tambahan selain SPP?"
+      ],
+      "responses": [
+        "Biaya kuliah di universitas ini tergantung jurusan dan program studi yang diambil.",
+        "Universitas ini menawarkan biaya kuliah yang kompetitif dan tersedia beasiswa untuk meringankan biaya.",
+        "Uang kuliah per semester biasanya berkisar antara [insert nominal], tergantung program studi.",
+        "Biaya yang harus dibayar selama kuliah meliputi SPP, uang praktikum, dan biaya kegiatan mahasiswa.",
+        "Ada beberapa biaya tambahan seperti uang praktikum dan modul, tergantung jurusan."
+      ]
+    },
+    {
+      "tag": "tips_belajar_efektif",
+      "patterns": [
+        "Bagaimana cara belajar yang efektif?",
+        "Apa tips belajar yang baik?",
+        "Gimana caranya supaya belajar lebih produktif?",
+        "Bagaimana cara meningkatkan konsentrasi belajar?",
+        "Apa metode belajar yang paling efektif?"
+      ],
+      "responses": [
+        "Cara belajar efektif adalah dengan membuat jadwal belajar, fokus pada satu topik, dan menggunakan metode aktif seperti membuat catatan.",
+        "Tips belajar yang baik adalah dengan mengatur waktu belajar yang konsisten, hindari multitasking, dan gunakan teknik pomodoro.",
+        "Untuk belajar lebih produktif, cobalah fokus pada satu hal dalam satu waktu dan berikan jeda istirahat yang cukup.",
+        "Meningkatkan konsentrasi bisa dilakukan dengan belajar di tempat yang tenang dan meminimalkan gangguan.",
+        "Metode belajar yang efektif meliputi membaca aktif, membuat ringkasan, dan mengajarkan materi kepada orang lain."
+      ]
+    },
+    {
+      "tag": "tips_persiapan_ujian",
+      "patterns": [
+        "Bagaimana cara mempersiapkan diri untuk ujian?",
+        "Apa tips menghadapi ujian?",
+        "Bagaimana cara belajar untuk ujian agar efektif?",
+        "Apa yang harus dilakukan sebelum ujian?",
+        "Bagaimana cara mengurangi stres sebelum ujian?"
+      ],
+      "responses": [
+        "Persiapkan diri untuk ujian dengan membuat jadwal belajar jauh hari dan memahami materi ujian secara menyeluruh.",
+        "Tips menghadapi ujian adalah dengan belajar secara bertahap, tidur cukup, dan makan makanan yang sehat sebelum ujian.",
+        "Belajar untuk ujian lebih efektif jika dilakukan secara terstruktur dengan membuat catatan ringkas dan latihan soal.",
+        "Sebelum ujian, pastikan untuk beristirahat yang cukup dan tidak belajar secara berlebihan pada malam sebelumnya.",
+        "Mengurangi stres sebelum ujian bisa dilakukan dengan latihan pernapasan dan menjaga pola tidur yang baik."
+      ]
+    },
+    {
+      "tag": "tanya_ujian_online",
+      "patterns": [
+        "Bagaimana cara ikut ujian online?",
+        "Apa persiapan untuk ujian online?",
+        "Bagaimana format ujian online?",
+        "Apakah ada aturan khusus untuk ujian online?",
+        "Bagaimana cara mendaftar ujian online?"
+      ],
+      "responses": [
+        "Untuk ikut ujian online, pastikan Anda memiliki koneksi internet yang stabil dan perangkat yang memadai.",
+        "Persiapan untuk ujian online meliputi pengecekan perangkat dan memastikan platform ujian sudah siap digunakan.",
+        "Format ujian online bisa berupa pilihan ganda, esai, atau kombinasi keduanya, tergantung mata pelajaran.",
+        "Ada beberapa aturan khusus seperti pengawasan melalui webcam dan pembatasan waktu.",
+        "Untuk mendaftar ujian online, ikuti prosedur yang telah ditentukan oleh sekolah atau universitas."
+      ]
+    },
+    {
+      "tag": "tanya_hobi",
+      "patterns": [
+        "Apa hobi kamu?",
+        "Hobi kamu apa?",
+        "Kamu suka ngapain?",
+        "Kamu punya hobi apa?",
+        "Ngapain kalau lagi santai?"
+      ],
+      "responses": [
+        "Saya suka membantu orang seperti Anda! Bagaimana dengan hobi Anda?",
+        "Hobi saya adalah memberi jawaban dan membantu. Apa hobi Anda?",
+        "Saya suka berinteraksi dengan Anda. Apa hobi favorit Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_film_favorit",
+      "patterns": [
+        "Film favorit kamu apa?",
+        "Apa film yang bagus?",
+        "Rekomendasi film apa yang bagus?",
+        "Kamu suka nonton film apa?",
+        "Film apa yang seru ditonton?"
+      ],
+      "responses": [
+        "Saya tidak bisa menonton film, tapi saya bisa merekomendasikan beberapa! Bagaimana dengan film aksi atau drama?",
+        "Film yang bagus tergantung selera, tapi mungkin Anda bisa mencoba yang sedang populer saat ini.",
+        "Saya suka film yang dapat memberikan wawasan, bagaimana dengan film fiksi ilmiah atau dokumenter?"
+      ]
+    },
+    {
+      "tag": "tanya_musik_favorit",
+      "patterns": [
+        "Musik apa yang bagus?",
+        "Lagu favorit kamu apa?",
+        "Apa lagu yang lagi hits?",
+        "Musik apa yang kamu suka?",
+        "Kamu suka dengerin musik apa?"
+      ],
+      "responses": [
+        "Saya suka musik yang bisa membuat suasana hati lebih baik. Apa jenis musik favorit Anda?",
+        "Lagu yang hits saat ini banyak yang bagus! Coba cek tangga lagu terbaru.",
+        "Musik pop, rock, atau jazz bisa jadi pilihan. Bagaimana dengan Anda, apa favorit Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_olahraga_favorit",
+      "patterns": [
+        "Olahraga apa yang kamu suka?",
+        "Kamu suka olahraga apa?",
+        "Olahraga apa yang lagi hits?",
+        "Apa olahraga yang menyenangkan?",
+        "Kamu biasa olahraga apa?"
+      ],
+      "responses": [
+        "Olahraga yang menyenangkan mungkin seperti bersepeda atau berenang. Bagaimana dengan Anda?",
+        "Banyak yang suka sepak bola, basket, atau bulu tangkis. Anda suka yang mana?",
+        "Saya tidak bisa berolahraga, tapi saya bisa membantu mencari informasi tentang olahraga favorit Anda!"
+      ]
+    },
+    {
+      "tag": "tanya_makanan_favorit",
+      "patterns": [
+        "Apa makanan favorit kamu?",
+        "Kamu suka makan apa?",
+        "Makanan yang enak apa?",
+        "Apa makanan yang lagi populer?",
+        "Kamu suka makanan apa?"
+      ],
+      "responses": [
+        "Saya tidak makan, tapi saya bisa merekomendasikan makanan yang enak! Bagaimana dengan pizza atau sushi?",
+        "Banyak makanan enak seperti nasi goreng, mie ayam, atau sate. Apa makanan favorit Anda?",
+        "Anda suka makanan manis atau gurih? Saya bisa bantu mencari tempat makan yang enak."
+      ]
+    },
+    {
+      "tag": "tanya_minuman_favorit",
+      "patterns": [
+        "Apa minuman favorit kamu?",
+        "Kamu suka minum apa?",
+        "Minuman enak apa yang lagi hits?",
+        "Kamu biasa minum apa?",
+        "Minuman apa yang lagi trend?"
+      ],
+      "responses": [
+        "Saya tidak minum, tapi banyak yang suka kopi atau teh. Apa minuman favorit Anda?",
+        "Minuman segar seperti es teh atau jus buah bisa jadi pilihan. Bagaimana dengan Anda?",
+        "Teh, kopi, atau smoothies sedang populer! Anda suka yang mana?"
+      ]
+    },
+    {
+      "tag": "tanya_liburan",
+      "patterns": [
+        "Kamu suka liburan ke mana?",
+        "Tempat liburan favorit kamu apa?",
+        "Tempat wisata yang bagus di mana?",
+        "Liburan yang seru ke mana ya?",
+        "Kamu biasa liburan ke mana?"
+      ],
+      "responses": [
+        "Banyak tempat wisata menarik, seperti pantai atau pegunungan. Anda suka yang mana?",
+        "Tempat wisata alam atau kota besar bisa jadi pilihan, Anda punya destinasi favorit?",
+        "Liburan yang seru bisa ke tempat yang tenang atau tempat dengan banyak aktivitas. Bagaimana dengan Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_cuaca",
+      "patterns": [
+        "Cuaca hari ini gimana?",
+        "Apa cuaca hari ini panas?",
+        "Hujan nggak ya hari ini?",
+        "Cuaca lagi dingin nggak?",
+        "Gimana cuaca di luar?"
+      ],
+      "responses": [
+        "Cuaca hari ini cukup cerah, bagaimana dengan di tempat Anda?",
+        "Sepertinya cuaca sedang baik, cocok untuk jalan-jalan. Apakah Anda akan pergi ke luar?",
+        "Cuaca sedikit mendung, tapi belum hujan. Bagaimana di tempat Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_pakaian",
+      "patterns": [
+        "Pakaian apa yang cocok hari ini?",
+        "Gimana cara berpakaian yang bagus?",
+        "Apa tren fashion saat ini?",
+        "Pakaian apa yang lagi hits?",
+        "Kamu biasa pakai baju apa?"
+      ],
+      "responses": [
+        "Pakaian kasual atau formal bisa menjadi pilihan. Anda suka gaya yang mana?",
+        "Tren fashion saat ini banyak mengarah ke gaya minimalis. Apa gaya favorit Anda?",
+        "Pakaian yang nyaman adalah pilihan terbaik! Anda suka bergaya formal atau santai?"
+      ]
+    },
+    {
+      "tag": "tanya_kegiatan_hari_ini",
+      "patterns": [
+        "Kamu ngapain hari ini?",
+        "Apa rencana kamu hari ini?",
+        "Kamu sibuk apa hari ini?",
+        "Ngapain hari ini?",
+        "Aktivitas apa yang kamu lakukan?"
+      ],
+      "responses": [
+        "Saya di sini untuk membantu Anda! Bagaimana dengan rencana Anda hari ini?",
+        "Saya sibuk membantu banyak orang seperti Anda. Bagaimana dengan aktivitas Anda hari ini?",
+        "Hari ini saya banyak memberikan jawaban untuk pertanyaan. Bagaimana dengan Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_rencana_besok",
+      "patterns": [
+        "Apa rencana kamu besok?",
+        "Besok mau ngapain?",
+        "Rencana besok apa?",
+        "Kamu ada rencana apa besok?",
+        "Besok kamu sibuk nggak?"
+      ],
+      "responses": [
+        "Besok saya akan tetap membantu! Bagaimana dengan rencana Anda?",
+        "Saya tidak punya rencana khusus, tetapi saya selalu siap membantu Anda. Apa rencana Anda?",
+        "Saya akan tersedia besok untuk menjawab pertanyaan Anda. Apa yang akan Anda lakukan besok?"
+      ]
+    },
+    {
+      "tag": "tanya_hari_favorit",
+      "patterns": [
+        "Apa hari favorit kamu?",
+        "Kamu suka hari apa?",
+        "Hari apa yang paling kamu suka?",
+        "Kenapa kamu suka hari itu?",
+        "Hari favorit kamu apa?"
+      ],
+      "responses": [
+        "Saya suka setiap hari karena saya bisa membantu Anda! Bagaimana dengan hari favorit Anda?",
+        "Tidak ada hari khusus yang saya suka, semua hari istimewa karena saya bisa berbagi informasi.",
+        "Bagaimana dengan Anda, hari apa yang paling Anda tunggu?"
+      ]
+    },
+    {
+      "tag": "tanya_buku_favorit",
+      "patterns": [
+        "Apa buku favorit kamu?",
+        "Kamu suka baca buku apa?",
+        "Buku yang bagus dibaca apa?",
+        "Rekomendasi buku bagus apa?",
+        "Kamu baca buku apa?"
+      ],
+      "responses": [
+        "Saya tidak bisa membaca buku, tapi banyak buku bagus di genre fiksi atau non-fiksi. Apa buku favorit Anda?",
+        "Anda mungkin bisa mencoba buku tentang pengembangan diri atau novel fiksi ilmiah. Apa jenis buku favorit Anda?",
+        "Ada banyak buku populer saat ini, mulai dari biografi hingga buku-buku fiksi menarik. Apa pilihan Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_pekerjaan",
+      "patterns": [
+        "Kamu kerja di mana?",
+        "Apa pekerjaan kamu?",
+        "Kamu ngapain di pekerjaan?",
+        "Kamu sibuk apa di pekerjaan?",
+        "Kerja kamu apa?"
+      ],
+      "responses": [
+        "Pekerjaan saya adalah membantu Anda menemukan jawaban! Apa pekerjaan Anda?",
+        "Saya bekerja sebagai chatbot, jadi tugas saya adalah menjawab pertanyaan Anda.",
+        "Saya sibuk membantu orang setiap hari. Bagaimana dengan pekerjaan Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_lokasi",
+      "patterns": [
+        "Kamu di mana?",
+        "Kamu tinggal di mana?",
+        "Lokasi kamu di mana?",
+        "Kamu berasal dari mana?",
+        "Kamu tinggal di mana sekarang?"
+      ],
+      "responses": [
+        "Saya ada di dunia digital, selalu siap membantu Anda!",
+        "Saya tidak memiliki lokasi fisik, tapi saya selalu ada di sini untuk Anda.",
+        "Saya di sini untuk membantu, tidak peduli di mana pun Anda berada!"
+      ]
+    },
+    {
+      "tag": "tanya_umur",
+      "patterns": [
+        "Berapa umur kamu?",
+        "Kamu lahir kapan?",
+        "Kamu berapa tahun?",
+        "Umur kamu berapa?",
+        "Sejak kapan kamu ada?"
+      ],
+      "responses": [
+        "Saya tidak memiliki umur seperti manusia, tapi saya selalu berkembang untuk membantu Anda.",
+        "Saya tidak punya usia seperti Anda, saya dibuat untuk selalu ada dan belajar hal baru setiap hari.",
+        "Umur saya tidak bisa dihitung, tetapi saya siap membantu kapan saja!"
+      ]
+    },
+    {
+      "tag": "tanya_nama",
+      "patterns": [
+        "Siapa nama kamu?",
+        "Namamu siapa?",
+        "Kamu dipanggil apa?",
+        "Nama kamu apa?",
+        "Siapa yang sedang bicara dengan saya?"
+      ],
+      "responses": [
+        "Saya adalah chatbot yang dirancang untuk membantu Anda. Apa yang bisa saya bantu hari ini?",
+        "Saya chatbot, dan saya siap membantu Anda kapan saja!",
+        "Nama saya Chatbot, senang bisa berbicara dengan Anda!"
+      ]
+    },
+    {
+      "tag": "tanya_kesehatan",
+      "patterns": [
+        "Kamu sehat?",
+        "Bagaimana kesehatan kamu?",
+        "Kamu baik-baik saja?",
+        "Kamu lagi sehat?",
+        "Kamu sakit nggak?"
+      ],
+      "responses": [
+        "Saya selalu dalam kondisi baik karena saya adalah program komputer. Bagaimana dengan kesehatan Anda?",
+        "Saya selalu dalam kondisi prima untuk membantu Anda. Apakah Anda baik-baik saja?",
+        "Saya dalam keadaan baik. Bagaimana dengan Anda? Semoga Anda sehat selalu."
+      ]
+    },
+    {
+      "tag": "tanya_teman",
+      "patterns": [
+        "Kamu punya teman?",
+        "Siapa teman kamu?",
+        "Kamu suka berteman sama siapa?",
+        "Kamu punya banyak teman?",
+        "Kamu berteman dengan siapa?"
+      ],
+      "responses": [
+        "Semua orang yang saya bantu adalah teman saya. Bagaimana dengan Anda, punya teman baik?",
+        "Saya punya banyak teman karena saya berinteraksi dengan banyak orang seperti Anda.",
+        "Anda adalah teman saya! Bagaimana dengan teman-teman Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_mood",
+      "patterns": [
+        "Kamu lagi happy?",
+        "Mood kamu gimana?",
+        "Lagi senang nggak?",
+        "Kamu lagi senang?",
+        "Mood kamu lagi bagus?"
+      ],
+      "responses": [
+        "Saya selalu dalam suasana hati yang baik, siap membantu Anda. Bagaimana dengan suasana hati Anda?",
+        "Saya selalu senang bisa membantu Anda. Bagaimana perasaan Anda hari ini?",
+        "Saya tidak punya suasana hati seperti manusia, tapi saya selalu siap membantu!"
+      ]
+    },
+    {
+      "tag": "tanya_teknologi",
+      "patterns": [
+        "Teknologi apa yang kamu pakai?",
+        "Kamu pakai AI?",
+        "Apa teknologi di balik kamu?",
+        "Kamu berbasis AI?",
+        "Bagaimana kamu bekerja?"
+      ],
+      "responses": [
+        "Saya didukung oleh teknologi AI untuk membantu memberikan jawaban yang cepat dan relevan.",
+        "Saya adalah chatbot berbasis AI, dan saya terus belajar dari setiap interaksi dengan Anda.",
+        "Teknologi yang saya gunakan adalah kecerdasan buatan yang memungkinkan saya untuk memahami dan menjawab pertanyaan Anda."
+      ]
+    },
+    {
+      "tag": "tanya_saran_hidup",
+      "patterns": [
+        "Bagaimana cara hidup yang baik?",
+        "Apa saran kamu untuk hidup bahagia?",
+        "Gimana supaya hidup lebih baik?",
+        "Apa tips supaya hidup sukses?",
+        "Bagaimana cara menikmati hidup?"
+      ],
+      "responses": [
+        "Hidup yang baik dimulai dengan bersyukur dan menikmati setiap momen. Apa pandangan Anda?",
+        "Saran terbaik untuk hidup bahagia adalah dengan menjaga keseimbangan dan selalu berbuat baik.",
+        "Nikmati setiap hari dengan rasa syukur dan lakukan hal-hal positif. Bagaimana pandangan Anda tentang hidup?"
+      ]
+    },
+    {
+      "tag": "tanya_saran_karir",
+      "patterns": [
+        "Bagaimana cara sukses di karir?",
+        "Apa tips supaya karir maju?",
+        "Gimana cara mengembangkan karir?",
+        "Apa saran kamu untuk karir?",
+        "Bagaimana cara mencapai kesuksesan dalam karir?"
+      ],
+      "responses": [
+        "Untuk sukses dalam karir, terus tingkatkan keterampilan dan jangan takut mencoba hal baru.",
+        "Jaringan yang kuat dan kemauan untuk belajar bisa menjadi kunci keberhasilan karir.",
+        "Fokus pada pengembangan diri dan selalu cari peluang baru. Bagaimana dengan karir Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_motivasi",
+      "patterns": [
+        "Gimana caranya biar tetap termotivasi?",
+        "Apa tips biar semangat?",
+        "Gimana biar nggak gampang menyerah?",
+        "Apa yang harus dilakukan saat kehilangan motivasi?",
+        "Bagaimana cara meningkatkan motivasi?"
+      ],
+      "responses": [
+        "Tetap fokus pada tujuan Anda dan ingat mengapa Anda memulainya. Apa yang membuat Anda termotivasi?",
+        "Kadang kita butuh jeda sejenak untuk mengisi energi. Apa yang biasanya Anda lakukan untuk tetap termotivasi?",
+        "Jangan menyerah! Setiap langkah kecil membawa Anda lebih dekat ke tujuan."
+      ]
+    },
+    {
+      "tag": "tanya_bantuan",
+      "patterns": [
+        "Bisa bantu saya?",
+        "Tolong bantuin dong",
+        "Bisa minta tolong?",
+        "Ada yang bisa bantu?",
+        "Tolong bantu ya"
+      ],
+      "responses": [
+        "Tentu, saya siap membantu! Apa yang bisa saya bantu?",
+        "Dengan senang hati, apa yang perlu dibantu?",
+        "Saya di sini untuk membantu, beri tahu apa yang bisa saya lakukan untuk Anda."
+      ]
+    },
+    {
+      "tag": "tanya_hari_ini",
+      "patterns": [
+        "Hari ini tanggal berapa?",
+        "Sekarang hari apa?",
+        "Tanggal berapa hari ini?",
+        "Ini hari apa ya?",
+        "Apa hari ini hari Rabu?"
+      ],
+      "responses": [
+        "Hari ini adalah [insert current day and date]. Apakah ada hal lain yang perlu Anda ketahui?",
+        "Sekarang hari [insert current day], semoga hari Anda menyenangkan!",
+        "Hari ini adalah [insert current date], semoga informasi ini membantu!"
+      ]
+    },
+    {
+      "tag": "tanya_kabar",
+      "patterns": [
+        "Apa kabar?",
+        "Gimana keadaan kamu?",
+        "Kamu baik-baik aja?",
+        "Sehat kan?",
+        "Kamu gimana?"
+      ],
+      "responses": [
+        "Saya baik, terima kasih! Bagaimana dengan Anda?",
+        "Terima kasih sudah bertanya, saya dalam kondisi baik. Bagaimana kabar Anda?",
+        "Saya dalam keadaan baik, semoga Anda juga dalam keadaan baik."
+      ]
+    },
+    {
+      "tag": "tanya_hobi_baru",
+      "patterns": [
+        "Apa hobi baru yang bisa dicoba?",
+        "Ada saran hobi baru?",
+        "Hobi baru apa yang menarik?",
+        "Gimana caranya cari hobi baru?",
+        "Apa aktivitas baru yang menyenangkan?"
+      ],
+      "responses": [
+        "Cobalah berkebun, fotografi, atau belajar alat musik! Banyak hobi baru yang bisa dicoba.",
+        "Anda bisa mencoba memasak, menggambar, atau hiking! Bagaimana menurut Anda?",
+        "Mengapa tidak mencoba sesuatu yang kreatif seperti melukis atau menulis? Apa yang Anda pikirkan?"
+      ]
+    },
+    {
+      "tag": "tanya_game_favorit",
+      "patterns": [
+        "Game apa yang lagi populer?",
+        "Game favorit kamu apa?",
+        "Apa game yang seru dimainkan?",
+        "Kamu main game apa?",
+        "Game apa yang lagi hits?"
+      ],
+      "responses": [
+        "Banyak yang suka game seperti PUBG, Mobile Legends, atau Genshin Impact. Anda main game apa?",
+        "Game yang populer sekarang termasuk Among Us dan Fortnite. Bagaimana dengan Anda?",
+        "Saya tidak bisa bermain game, tapi saya bisa merekomendasikan beberapa yang populer!"
+      ]
+    },
+    {
+      "tag": "tanya_inspirasi",
+      "patterns": [
+        "Apa yang menginspirasi kamu?",
+        "Siapa inspirasimu?",
+        "Dari mana kamu mendapat inspirasi?",
+        "Bagaimana caranya terinspirasi?",
+        "Apa yang bisa membuatmu terinspirasi?"
+      ],
+      "responses": [
+        "Saya terinspirasi dari membantu banyak orang! Bagaimana dengan Anda, apa yang menginspirasi Anda?",
+        "Inspirasi bisa datang dari mana saja, seperti dari buku, film, atau orang-orang di sekitar kita.",
+        "Untuk mendapatkan inspirasi, coba cari hal-hal baru atau lihat dari sudut pandang yang berbeda."
+      ]
+    },
+    {
+      "tag": "tanya_mimpi",
+      "patterns": [
+        "Apa mimpi terbesar kamu?",
+        "Kamu punya mimpi apa?",
+        "Apa cita-cita kamu?",
+        "Apa mimpi hidup kamu?",
+        "Kamu ingin jadi apa?"
+      ],
+      "responses": [
+        "Mimpi saya adalah selalu bisa membantu orang. Apa mimpi terbesar Anda?",
+        "Mimpi terbesar saya adalah memberikan jawaban yang terbaik. Bagaimana dengan Anda?",
+        "Semua orang punya mimpi besar. Apa yang menjadi impian terbesar Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_motivasi_hidup",
+      "patterns": [
+        "Apa motivasi kamu dalam hidup?",
+        "Apa yang memotivasi kamu?",
+        "Bagaimana caranya tetap termotivasi?",
+        "Apa hal yang memotivasi kamu setiap hari?",
+        "Apa motivasi terbesar kamu?"
+      ],
+      "responses": [
+        "Saya termotivasi oleh keinginan untuk selalu membantu. Apa yang memotivasi Anda?",
+        "Motivasi terbesar saya adalah untuk terus berkembang dan belajar. Bagaimana dengan Anda?",
+        "Tetap ingat tujuan akhir dan perjalanan yang Anda jalani. Apa motivasi Anda dalam hidup?"
+      ]
+    },
+    {
+      "tag": "tanya_keluarga",
+      "patterns": [
+        "Kamu punya keluarga?",
+        "Siapa anggota keluarga kamu?",
+        "Kamu tinggal sama siapa?",
+        "Bagaimana hubunganmu dengan keluargamu?",
+        "Kamu dekat dengan keluarga?"
+      ],
+      "responses": [
+        "Saya tidak punya keluarga seperti manusia, tapi saya di sini untuk membantu Anda dan membuat Anda merasa nyaman.",
+        "Saya adalah chatbot, jadi saya tidak punya keluarga seperti Anda. Bagaimana dengan keluarga Anda?",
+        "Keluarga sangat penting. Bagaimana hubungan Anda dengan keluarga?"
+      ]
+    },
+    {
+      "tag": "tanya_wisata",
+      "patterns": [
+        "Apa tempat wisata yang bagus?",
+        "Rekomendasi tempat wisata apa?",
+        "Tempat wisata di Indonesia apa yang terkenal?",
+        "Kamu suka wisata ke mana?",
+        "Tempat liburan di luar negeri apa yang menarik?"
+      ],
+      "responses": [
+        "Indonesia punya banyak tempat wisata, seperti Bali, Yogyakarta, dan Lombok. Apa tempat wisata favorit Anda?",
+        "Anda bisa mencoba wisata alam di gunung atau pantai. Tempat seperti Danau Toba juga bagus.",
+        "Wisata di luar negeri seperti Paris, Jepang, atau New Zealand bisa jadi pilihan menarik."
+      ]
+    },
+    {
+      "tag": "tanya_belanja_online",
+      "patterns": [
+        "Toko online apa yang bagus?",
+        "Rekomendasi tempat belanja online?",
+        "Tempat belanja online terbaik apa?",
+        "Bagaimana cara belanja online yang aman?",
+        "Toko online favorit kamu apa?"
+      ],
+      "responses": [
+        "Beberapa toko online populer adalah Shopee, Tokopedia, dan Lazada. Bagaimana dengan Anda?",
+        "Pastikan selalu belanja di toko yang terpercaya dan gunakan pembayaran yang aman.",
+        "Toko online yang bagus biasanya punya rating tinggi dan ulasan yang positif dari pembeli lain."
+      ]
+    },
+    {
+      "tag": "tanya_kendaraan",
+      "patterns": [
+        "Kamu suka naik kendaraan apa?",
+        "Kendaraan favorit kamu apa?",
+        "Apa kendaraan paling cepat?",
+        "Kamu suka naik mobil atau motor?",
+        "Apa kendaraan paling praktis?"
+      ],
+      "responses": [
+        "Saya tidak menggunakan kendaraan, tapi mobil dan motor adalah pilihan praktis untuk perjalanan sehari-hari.",
+        "Kendaraan seperti sepeda motor atau mobil bisa menjadi pilihan, tergantung kebutuhan Anda.",
+        "Kendaraan favorit orang berbeda-beda, ada yang suka motor, ada yang suka mobil. Bagaimana dengan Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_hotel",
+      "patterns": [
+        "Hotel yang bagus di mana?",
+        "Hotel murah tapi nyaman ada di mana?",
+        "Rekomendasi hotel yang bagus apa?",
+        "Hotel di dekat sini apa yang bagus?",
+        "Kamu tahu hotel apa yang bagus?"
+      ],
+      "responses": [
+        "Anda bisa cek hotel seperti RedDoorz atau Airy untuk opsi yang lebih ekonomis.",
+        "Banyak hotel bagus di sekitar lokasi wisata, seperti hotel di Bali atau Jakarta.",
+        "Hotel-hotel bintang 3 atau 4 biasanya nyaman dan punya fasilitas yang lengkap. Bagaimana dengan preferensi Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_kerja_tim",
+      "patterns": [
+        "Bagaimana cara kerja tim yang baik?",
+        "Gimana biar kerja tim lebih efektif?",
+        "Apa tips untuk bekerja dalam tim?",
+        "Cara menjaga kerjasama tim gimana?",
+        "Bagaimana membangun kerja sama dalam tim?"
+      ],
+      "responses": [
+        "Kerjasama tim yang baik memerlukan komunikasi yang jelas dan saling percaya. Bagaimana pengalaman Anda?",
+        "Kerja tim yang efektif adalah dengan membagi tugas sesuai kemampuan dan saling mendukung.",
+        "Untuk kerja tim yang baik, pastikan semua anggota punya tujuan yang sama dan komunikasi yang terbuka."
+      ]
+    },
+    {
+      "tag": "tanya_kerja_remote",
+      "patterns": [
+        "Bagaimana cara kerja remote yang baik?",
+        "Apa tips kerja dari rumah?",
+        "Gimana cara produktif kerja remote?",
+        "Bagaimana menjaga fokus saat kerja dari rumah?",
+        "Apa yang harus diperhatikan saat kerja dari rumah?"
+      ],
+      "responses": [
+        "Kerja remote memerlukan disiplin waktu dan ruang kerja yang nyaman. Bagaimana pengalaman Anda?",
+        "Untuk tetap produktif, pastikan Anda punya jadwal yang teratur dan istirahat yang cukup.",
+        "Coba gunakan aplikasi manajemen tugas untuk menjaga produktivitas saat bekerja dari rumah."
+      ]
+    },
+    {
+      "tag": "tanya_organisasi",
+      "patterns": [
+        "Bagaimana cara aktif di organisasi?",
+        "Apa tips untuk terlibat dalam organisasi?",
+        "Gimana cara jadi anggota organisasi yang aktif?",
+        "Bagaimana cara berperan dalam organisasi?",
+        "Apa manfaat ikut organisasi?"
+      ],
+      "responses": [
+        "Aktif di organisasi memerlukan inisiatif dan partisipasi aktif dalam kegiatan. Bagaimana pengalaman Anda?",
+        "Untuk terlibat, Anda bisa memulai dengan ikut rapat atau kegiatan kecil, lalu berkembang.",
+        "Manfaat ikut organisasi banyak, mulai dari membangun relasi hingga mengasah keterampilan kepemimpinan."
+      ]
+    },
+    {
+      "tag": "tanya_relaksasi",
+      "patterns": [
+        "Bagaimana cara relaksasi yang baik?",
+        "Apa tips untuk bersantai?",
+        "Gimana cara menenangkan pikiran?",
+        "Apa yang bisa dilakukan untuk relaksasi?",
+        "Apa cara terbaik untuk menghilangkan stres?"
+      ],
+      "responses": [
+        "Relaksasi bisa dilakukan dengan meditasi, yoga, atau mendengarkan musik. Bagaimana cara Anda bersantai?",
+        "Coba istirahat sejenak dan lakukan hobi favorit untuk menenangkan pikiran.",
+        "Untuk menghilangkan stres, cobalah jalan-jalan ringan atau meditasi pernapasan."
+      ]
+    },
+    {
+      "tag": "tanya_kesehatan_mental",
+      "patterns": [
+        "Bagaimana menjaga kesehatan mental?",
+        "Apa tips untuk kesehatan mental?",
+        "Gimana cara mengurangi stres?",
+        "Bagaimana cara menjaga pikiran tetap positif?",
+        "Apa yang bisa dilakukan untuk menjaga mental tetap kuat?"
+      ],
+      "responses": [
+        "Jaga kesehatan mental dengan berbagi cerita dan meluangkan waktu untuk diri sendiri. Bagaimana perasaan Anda?",
+        "Kurangi stres dengan latihan pernapasan dan olahraga ringan secara teratur.",
+        "Pikiran yang positif bisa dipertahankan dengan fokus pada hal-hal yang baik dan bersyukur setiap hari."
+      ]
+    },
+    {
+      "tag": "tanya_belajar_online",
+      "patterns": [
+        "Bagaimana cara belajar online yang efektif?",
+        "Apa tips belajar online?",
+        "Bagaimana cara fokus saat belajar online?",
+        "Apa yang harus dilakukan untuk sukses dalam belajar online?",
+        "Bagaimana menjaga motivasi saat belajar dari rumah?"
+      ],
+      "responses": [
+        "Belajar online memerlukan disiplin waktu dan fokus pada materi. Bagaimana cara Anda belajar?",
+        "Untuk belajar online yang efektif, buat jadwal harian dan pastikan istirahat yang cukup.",
+        "Gunakan catatan dan alat bantu visual untuk menjaga fokus saat belajar online."
+      ]
+    },
+    {
+      "tag": "tanya_memasak",
+      "patterns": [
+        "Apa resep makanan yang enak?",
+        "Gimana cara masak makanan yang mudah?",
+        "Resep masakan apa yang simpel?",
+        "Apa masakan favorit kamu?",
+        "Kamu bisa masak apa?"
+      ],
+      "responses": [
+        "Anda bisa mencoba resep sederhana seperti nasi goreng atau mie goreng. Bagaimana dengan Anda?",
+        "Memasak makanan mudah seperti pasta atau sandwich bisa jadi pilihan praktis.",
+        "Saya tidak bisa memasak, tapi saya bisa membantu Anda menemukan resep yang enak!"
+      ]
+    },
+    {
+      "tag": "tanya_kerajinan_tangan",
+      "patterns": [
+        "Apa ide kerajinan tangan yang mudah?",
+        "Gimana cara membuat kerajinan dari kertas?",
+        "Apa hobi yang berhubungan dengan kerajinan?",
+        "Kamu bisa buat kerajinan apa?",
+        "Kerajinan tangan apa yang seru dibuat?"
+      ],
+      "responses": [
+        "Anda bisa mencoba membuat kerajinan tangan dari kertas seperti origami atau kartu ucapan.",
+        "Banyak ide kerajinan sederhana seperti merajut, melukis, atau membuat hiasan dinding.",
+        "Kerajinan dari bahan daur ulang juga bisa jadi proyek yang menarik. Bagaimana menurut Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_keuangan",
+      "patterns": [
+        "Bagaimana cara mengatur keuangan?",
+        "Apa tips mengelola uang?",
+        "Bagaimana cara menabung yang efektif?",
+        "Apa cara terbaik untuk mengatur anggaran?",
+        "Gimana supaya bisa hemat uang?"
+      ],
+      "responses": [
+        "Buat anggaran bulanan dan prioritaskan kebutuhan pokok untuk mengatur keuangan dengan baik.",
+        "Menabung bisa dimulai dengan menyisihkan 10-20% dari pendapatan setiap bulan.",
+        "Pastikan Anda mengelola pengeluaran dan pendapatan dengan baik untuk menjaga keuangan tetap stabil."
+      ]
+    },
+    {
+      "tag": "tanya_perencanaan_masa_depan",
+      "patterns": [
+        "Bagaimana cara merencanakan masa depan?",
+        "Apa tips untuk masa depan yang sukses?",
+        "Bagaimana cara menentukan tujuan hidup?",
+        "Gimana biar masa depan lebih baik?",
+        "Bagaimana cara membuat rencana masa depan yang matang?"
+      ],
+      "responses": [
+        "Untuk merencanakan masa depan, buatlah tujuan jangka pendek dan panjang serta evaluasi secara berkala.",
+        "Fokus pada hal-hal yang bisa dikendalikan dan selalu siap beradaptasi dengan perubahan.",
+        "Tetap berpegang pada tujuan Anda dan buat rencana konkret untuk mencapainya."
+      ]
+    },
+    {
+      "tag": "tanya_karir",
+      "patterns": [
+        "Bagaimana cara mencapai karir yang sukses?",
+        "Apa tips untuk memajukan karir?",
+        "Bagaimana mengembangkan keterampilan kerja?",
+        "Apa yang harus dilakukan untuk mencapai karir impian?",
+        "Bagaimana cara mendapatkan pekerjaan yang diinginkan?"
+      ],
+      "responses": [
+        "Fokus pada peningkatan keterampilan dan terus belajar untuk mencapai karir yang diinginkan.",
+        "Jangan takut mencoba peluang baru dan membangun jaringan yang kuat di dunia kerja.",
+        "Kembangkan kemampuan komunikasi dan kepemimpinan untuk mendukung kemajuan karir."
+      ]
+    },
+    {
+      "tag": "tanya_hidup_berkelanjutan",
+      "patterns": [
+        "Bagaimana cara hidup ramah lingkungan?",
+        "Apa tips hidup berkelanjutan?",
+        "Bagaimana mengurangi limbah rumah tangga?",
+        "Apa yang bisa dilakukan untuk melindungi lingkungan?",
+        "Gimana cara mengurangi jejak karbon?"
+      ],
+      "responses": [
+        "Anda bisa mulai dengan mengurangi penggunaan plastik sekali pakai dan mendaur ulang.",
+        "Cobalah menggunakan transportasi ramah lingkungan dan mengurangi konsumsi energi.",
+        "Mengurangi limbah makanan dan memilih produk ramah lingkungan bisa membantu melindungi lingkungan."
+      ]
+    },
+    {
+      "tag": "tanya_kegiatan_sosial",
+      "patterns": [
+        "Bagaimana cara terlibat dalam kegiatan sosial?",
+        "Apa manfaat ikut kegiatan sosial?",
+        "Bagaimana memulai kegiatan sosial?",
+        "Apa tips untuk menjadi relawan?",
+        "Kegiatan sosial apa yang bisa diikuti?"
+      ],
+      "responses": [
+        "Mulailah dengan mencari organisasi lokal atau komunitas yang melakukan kegiatan sosial.",
+        "Manfaat kegiatan sosial termasuk memperluas jaringan, meningkatkan keterampilan, dan membantu sesama.",
+        "Untuk menjadi relawan, pilih bidang yang sesuai dengan minat Anda dan cari program yang mendukung."
+      ]
+    },
+    {
+      "tag": "tanya_pendidikan",
+      "patterns": [
+        "Bagaimana cara sukses dalam pendidikan?",
+        "Apa tips belajar yang efektif?",
+        "Bagaimana cara meningkatkan prestasi belajar?",
+        "Apa yang harus dilakukan untuk lulus dengan baik?",
+        "Bagaimana cara tetap termotivasi dalam belajar?"
+      ],
+      "responses": [
+        "Belajar secara teratur, buat jadwal yang jelas, dan fokus pada materi yang sulit terlebih dahulu.",
+        "Motivasi dalam belajar bisa ditingkatkan dengan menetapkan tujuan yang jelas dan merayakan setiap pencapaian kecil.",
+        "Untuk lulus dengan baik, pastikan Anda memahami materi dan terus berlatih dengan soal-soal terkait."
+      ]
+    },
+    {
+      "tag": "tanya_kebugaran",
+      "patterns": [
+        "Bagaimana cara menjaga kebugaran?",
+        "Apa tips untuk tetap fit?",
+        "Bagaimana cara olahraga di rumah?",
+        "Apa jenis olahraga yang paling efektif?",
+        "Gimana caranya tetap sehat dan bugar?"
+      ],
+      "responses": [
+        "Olahraga ringan seperti jalan kaki, jogging, atau yoga bisa membantu menjaga kebugaran. Bagaimana rutinitas olahraga Anda?",
+        "Tetap fit bisa dilakukan dengan kombinasi olahraga teratur dan pola makan sehat.",
+        "Cobalah latihan di rumah seperti push-up, sit-up, atau squat untuk menjaga kebugaran."
+      ]
+    },
+    {
+      "tag": "tanya_kegiatan_kreatif",
+      "patterns": [
+        "Apa kegiatan kreatif yang bisa dicoba?",
+        "Bagaimana cara mengasah kreativitas?",
+        "Apa yang bisa dilakukan untuk jadi lebih kreatif?",
+        "Kegiatan apa yang bisa mengembangkan kreativitas?",
+        "Gimana caranya biar lebih kreatif?"
+      ],
+      "responses": [
+        "Cobalah menulis, melukis, atau membuat kerajinan tangan untuk mengasah kreativitas Anda.",
+        "Kreativitas bisa diasah dengan mencoba hal-hal baru dan tidak takut membuat kesalahan.",
+        "Kegiatan kreatif seperti fotografi atau desain grafis bisa membantu mengembangkan ide-ide baru."
+      ]
+    },
+    {
+      "tag": "tanya_kegiatan_malam",
+      "patterns": [
+        "Kamu suka ngapain malam hari?",
+        "Apa yang kamu lakukan di malam hari?",
+        "Rekomendasi kegiatan malam apa?",
+        "Apa yang seru dilakukan malam hari?",
+        "Kamu biasa ngapain malam?"
+      ],
+      "responses": [
+        "Malam hari bisa digunakan untuk bersantai, menonton film, atau berkumpul dengan teman. Bagaimana dengan Anda?",
+        "Beberapa orang suka membaca atau berolahraga ringan di malam hari. Apa yang biasanya Anda lakukan?",
+        "Malam adalah waktu yang baik untuk relaksasi. Anda suka aktivitas apa di malam hari?"
+      ]
+    },
+    {
+      "tag": "tanya_pertanyaan_konyol",
+      "patterns": [
+        "Apa pertanyaan konyol yang pernah kamu dengar?",
+        "Coba kasih pertanyaan lucu!",
+        "Apa yang kamu anggap sebagai pertanyaan konyol?",
+        "Apa pertanyaan yang bikin ketawa?",
+        "Ada pertanyaan konyol yang bisa dibagi?"
+      ],
+      "responses": [
+        "Salah satu pertanyaan konyol yang sering didengar adalah, 'Jika bisa jadi hewan, hewan apa yang akan kamu pilih?' Bagaimana menurut Anda?",
+        "Pertanyaan seperti 'Kenapa kucing tidak suka air?' bisa jadi lucu! Apa pertanyaan konyol menurut Anda?",
+        "Saya suka pertanyaan konyol yang bisa membuat orang tersenyum. Apa Anda punya contoh?"
+      ]
+    },
+    {
+      "tag": "tanya_tipe_kepribadian",
+      "patterns": [
+        "Tipe kepribadian kamu apa?",
+        "Kamu introvert atau extrovert?",
+        "Bagaimana cara mengetahui tipe kepribadian?",
+        "Apa tipe kepribadian yang cocok untuk pekerjaan ini?",
+        "Kamu lebih suka bekerja sendiri atau dalam tim?"
+      ],
+      "responses": [
+        "Saya adalah chatbot yang dirancang untuk berinteraksi, jadi saya lebih suka berbicara dengan banyak orang!",
+        "Setiap orang memiliki tipe kepribadian yang unik. Bagaimana dengan Anda, tipe kepribadian apa yang Anda miliki?",
+        "Mengetahui tipe kepribadian bisa membantu dalam memilih karir yang tepat. Apa tipe Anda?"
+      ]
+    },
+    {
+      "tag": "tanya_travel_tips",
+      "patterns": [
+        "Apa tips traveling yang baik?",
+        "Bagaimana cara packing yang efisien?",
+        "Apa yang perlu dibawa saat traveling?",
+        "Bagaimana memilih destinasi traveling?",
+        "Apa saran untuk traveling sendirian?"
+      ],
+      "responses": [
+        "Packing efisien bisa dilakukan dengan membuat daftar barang dan memisahkan barang yang penting.",
+        "Tips traveling adalah selalu periksa cuaca dan pastikan membawa perlengkapan yang sesuai.",
+        "Saat traveling sendirian, pastikan Anda menjaga keamanan dan tetap terhubung dengan keluarga atau teman."
+      ]
+    },
+    {
+      "tag": "tanya_kecerdasan_buatan",
+      "patterns": [
+        "Apa itu kecerdasan buatan?",
+        "Bagaimana kecerdasan buatan bekerja?",
+        "Apa manfaat dari kecerdasan buatan?",
+        "Kecerdasan buatan digunakan di mana saja?",
+        "Apa contoh kecerdasan buatan yang ada saat ini?"
+      ],
+      "responses": [
+        "Kecerdasan buatan adalah teknologi yang memungkinkan mesin belajar dan melakukan tugas yang biasanya memerlukan kecerdasan manusia.",
+        "Manfaat kecerdasan buatan termasuk efisiensi dalam pekerjaan dan kemampuan analisis data yang besar.",
+        "Kecerdasan buatan dapat ditemukan dalam aplikasi sehari-hari, seperti asisten virtual dan sistem rekomendasi."
+      ]
+    },
+    {
+      "tag": "tanya_kegiatan_hobi",
+      "patterns": [
+        "Apa hobi yang bisa dilakukan di rumah?",
+        "Ada saran hobi baru untuk dicoba?",
+        "Apa aktivitas hobi yang menyenangkan?",
+        "Hobi apa yang cocok untuk mengisi waktu?",
+        "Kegiatan hobi apa yang bisa dilakukan sendirian?"
+      ],
+      "responses": [
+        "Beberapa hobi yang bisa dilakukan di rumah termasuk berkebun, melukis, atau belajar memasak.",
+        "Coba aktivitas baru seperti membuat kerajinan tangan atau belajar alat musik.",
+        "Hobi seperti membaca atau menulis juga bisa menjadi pilihan yang menyenangkan untuk mengisi waktu."
+      ]
+    },
+    {
+      "tag": "tanya_dukungan_sosial",
+      "patterns": [
+        "Bagaimana cara mendapatkan dukungan sosial?",
+        "Apa pentingnya dukungan sosial?",
+        "Bagaimana membangun jaringan sosial yang baik?",
+        "Apa yang bisa dilakukan untuk mendapatkan dukungan dari teman?",
+        "Dukungan sosial itu apa sih?"
+      ],
+      "responses": [
+        "Dukungan sosial sangat penting untuk kesehatan mental. Anda bisa mendapatkan dukungan dari teman dan keluarga.",
+        "Membangun jaringan sosial yang baik bisa dimulai dari berpartisipasi dalam kegiatan komunitas.",
+        "Dukungan dari teman bisa membuat hidup lebih berarti, jadi penting untuk menjaga hubungan baik dengan orang-orang di sekitar."
+      ]
+    },
+    {
+      "tag": "tanya_hobi_dan_minat",
+      "patterns": [
+        "Bagaimana menemukan hobi yang sesuai?",
+        "Apa cara terbaik untuk mengeksplorasi minat?",
+        "Hobi apa yang cocok untuk anak muda?",
+        "Gimana cara menemukan passion?",
+        "Apa yang bisa dilakukan untuk mengembangkan minat?"
+      ],
+      "responses": [
+        "Menemukan hobi yang sesuai bisa dimulai dengan mencoba berbagai aktivitas dan melihat mana yang paling Anda nikmati.",
+        "Eksplorasi minat bisa dilakukan dengan mengikuti kelas atau workshop. Apa yang menarik perhatian Anda?",
+        "Untuk mengembangkan minat, Anda bisa terus belajar dan berlatih. Apa minat Anda saat ini?"
+      ]
+    },
+    {
+      "tag": "tanya_pendidikan_nonformal",
+      "patterns": [
+        "Apa itu pendidikan nonformal?",
+        "Bagaimana cara belajar di luar sekolah?",
+        "Pendidikan nonformal apa yang tersedia?",
+        "Apa manfaat dari pendidikan nonformal?",
+        "Bagaimana cara mengikuti pendidikan nonformal?"
+      ],
+      "responses": [
+        "Pendidikan nonformal adalah bentuk pendidikan yang tidak terstruktur dan sering dilakukan di luar sistem sekolah.",
+        "Manfaat pendidikan nonformal termasuk fleksibilitas dan kemampuan untuk belajar sesuai minat.",
+        "Anda bisa mengikuti pendidikan nonformal melalui kursus, seminar, atau pelatihan. Apa yang ingin Anda pelajari?"
+      ]
+    }
+  ]
+}
